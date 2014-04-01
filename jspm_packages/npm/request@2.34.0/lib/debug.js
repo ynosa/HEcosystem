@@ -1,0 +1,2 @@
+var util=require("github:jspm/nodelibs@0.0.2/util");module.exports=function(){/\brequest\b/.test(process.env.NODE_DEBUG)&&console.error("REQUEST %s",util.format.apply(util,arguments))};
+//# sourceMappingURL=jspm_packages/npm/request@2.34.0/lib/debug.js.map

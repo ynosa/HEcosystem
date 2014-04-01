@@ -1,0 +1,2 @@
+exports.dom={level2:{core:require("./core").dom.level2.core,events:require("./events").dom.level2.events,html:require("./html").dom.level2.html}};
+//# sourceMappingURL=jspm_packages/npm/jsdom@0.5.7/level2/index.js.map

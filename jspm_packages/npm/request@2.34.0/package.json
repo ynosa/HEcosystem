@@ -1,0 +1,74 @@
+{
+  "name": "request",
+  "description": "Simplified HTTP request client.",
+  "tags": [
+    "http",
+    "simple",
+    "util",
+    "utility"
+  ],
+  "version": "2.34.0",
+  "author": "Mikeal Rogers <mikeal.rogers@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/mikeal/request.git"
+  },
+  "bugs": {
+    "url": "http://github.com/mikeal/request/issues"
+  },
+  "license": "Apache, Version 2.0",
+  "engines": [
+    "node >= 0.8.0"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "qs": "npm:qs@0.6",
+    "json-stringify-safe": "npm:json-stringify-safe@5.0",
+    "forever-agent": "npm:forever-agent@0.5",
+    "node-uuid": "npm:node-uuid@1.4",
+    "mime": "npm:mime@^1.2.9",
+    "nodelibs": "github:jspm/nodelibs@0.0.2"
+  },
+  "optionalDependencies": {
+    "tough-cookie": ">=0.12.0",
+    "form-data": "~0.1.0",
+    "tunnel-agent": "~0.3.0",
+    "http-signature": "~0.10.0",
+    "oauth-sign": "~0.3.0",
+    "hawk": "~1.0.0",
+    "aws-sign2": "~0.5.0"
+  },
+  "scripts": {
+    "test": "node tests/run.js"
+  },
+  "registry": "jspm",
+  "map": {
+    "assert": "github:jspm/nodelibs@0.0.2/assert",
+    "buffer": "github:jspm/nodelibs@0.0.2/buffer",
+    "console": "github:jspm/nodelibs@0.0.2/console",
+    "constants": "github:jspm/nodelibs@0.0.2/constants",
+    "domain": "github:jspm/nodelibs@0.0.2/domain",
+    "events": "github:jspm/nodelibs@0.0.2/events",
+    "fs": "github:jspm/nodelibs@0.0.2/fs",
+    "http": "github:jspm/nodelibs@0.0.2/http",
+    "https": "github:jspm/nodelibs@0.0.2/https",
+    "os": "github:jspm/nodelibs@0.0.2/os",
+    "path": "github:jspm/nodelibs@0.0.2/path",
+    "punycode": "github:jspm/nodelibs@0.0.2/punycode",
+    "querystring": "github:jspm/nodelibs@0.0.2/querystring",
+    "string_decorder": "github:jspm/nodelibs@0.0.2/string_decorder",
+    "stream": "github:jspm/nodelibs@0.0.2/stream",
+    "timers": "github:jspm/nodelibs@0.0.2/timers",
+    "tls": "github:jspm/nodelibs@0.0.2/tls",
+    "tty": "github:jspm/nodelibs@0.0.2/tty",
+    "url": "github:jspm/nodelibs@0.0.2/url",
+    "util": "github:jspm/nodelibs@0.0.2/util",
+    "vm": "github:jspm/nodelibs@0.0.2/vm",
+    "zlib": "github:jspm/nodelibs@0.0.2/zlib",
+    "process": "@@nodeProcess"
+  },
+  "buildConfig": {
+    "minify": true
+  },
+  "useJSExtensions": true
+}

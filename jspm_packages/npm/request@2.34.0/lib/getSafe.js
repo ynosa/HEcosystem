@@ -1,0 +1,3 @@
+// Safe toJSON
+module.exports=function e(t,n){if("object"==typeof t||"function"==typeof t)var r={};if(Array.isArray(t))var r=[];var o=[];Object.defineProperty(t,n,{});for(var i=Object.keys(t).filter(function(e){return e===n?!1:"object"!=typeof t[e]&&"function"!=typeof t[e]||null===t[e]?!0:!Object.getOwnPropertyDescriptor(t[e],n)}),a=0;a<i.length;a++)"object"!=typeof t[i[a]]&&"function"!=typeof t[i[a]]||null===t[i[a]]?r[i[a]]=t[i[a]]:(o.push(i[a]),Object.defineProperty(t[i[a]],n,{}));for(var a=0;a<o.length;a++)r[o[a]]=e(t[o[a]],n);return r};
+//# sourceMappingURL=jspm_packages/npm/request@2.34.0/lib/getSafe.js.map

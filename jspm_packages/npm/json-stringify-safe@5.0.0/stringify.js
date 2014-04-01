@@ -1,0 +1,2 @@
+function getSerialize(e,t){var n=[],r=[];return t=t||function(e,t){return"[Circular "+getPath(t,n,r)+"]"},function(o,i){var a=i;return"object"==typeof i&&i&&(-1!==n.indexOf(i)?a=t(o,i):(n.push(i),r.push(o))),e&&(a=e(o,a)),a}}function getPath(e,t,n){var r=t.indexOf(e),o=[n[r]];for(r--;r>=0;r--)t[r][o[0]]===e&&(e=t[r],o.unshift(n[r]));return"~"+o.join(".")}function stringify(e,t,n,r){return JSON.stringify(e,getSerialize(t,r),n)}module.exports=stringify,stringify.getSerialize=getSerialize;
+//# sourceMappingURL=jspm_packages/npm/json-stringify-safe@5.0.0/stringify.js.map

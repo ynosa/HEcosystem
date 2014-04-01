@@ -1,0 +1,2 @@
+exports.javascript=function(t,e,n){var r=t.ownerDocument,o=r&&r.parentWindow;if(o)try{o.run(e,n)}catch(i){t.raise("error","Running "+n+" failed.",{error:i,filename:n})}};
+//# sourceMappingURL=jspm_packages/npm/jsdom@0.5.7/level2/languages/javascript.js.map

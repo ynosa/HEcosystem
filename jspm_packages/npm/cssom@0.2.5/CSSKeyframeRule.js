@@ -1,0 +1,3 @@
+//.CommonJS
+var CSSOM={CSSRule:require("./CSSRule").CSSRule,CSSStyleDeclaration:require("./CSSStyleDeclaration").CSSStyleDeclaration};CSSOM.CSSKeyframeRule=function(){CSSOM.CSSRule.call(this),this.keyText="",this.style=new CSSOM.CSSStyleDeclaration,this.style.parentRule=this},CSSOM.CSSKeyframeRule.prototype=new CSSOM.CSSRule,CSSOM.CSSKeyframeRule.prototype.constructor=CSSOM.CSSKeyframeRule,CSSOM.CSSKeyframeRule.prototype.type=9,CSSOM.CSSKeyframeRule.prototype.__defineGetter__("cssText",function(){return this.keyText+" {"+this.style.cssText+"} "}),exports.CSSKeyframeRule=CSSOM.CSSKeyframeRule;
+//# sourceMappingURL=jspm_packages/npm/cssom@0.2.5/CSSKeyframeRule.js.map

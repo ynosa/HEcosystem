@@ -1,0 +1,68 @@
+{
+  "name": "contextify",
+  "version": "0.1.7",
+  "description": "Turn an object into a persistent execution context.",
+  "author": "Brian McDaniel <brianmcd05@gmail.com>",
+  "contributors": [
+    "Assaf Arkin <assaf@labnotes.org> (http://labnotes.org/)"
+  ],
+  "keywords": [
+    "context",
+    "vm"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brianmcd/contextify.git"
+  },
+  "main": "./lib/contextify",
+  "scripts": {
+    "test": "nodeunit test/"
+  },
+  "engines": {
+    "node": ">=0.4.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/brianmcd/contextify/blob/master/LICENSE.txt"
+    }
+  ],
+  "dependencies": {
+    "bindings": "npm:bindings",
+    "nan": "npm:nan@0.8",
+    "nodelibs": "github:jspm/nodelibs@0.0.2"
+  },
+  "devDependencies": {
+    "nodeunit": ">=0.5.x"
+  },
+  "registry": "jspm",
+  "map": {
+    "assert": "github:jspm/nodelibs@0.0.2/assert",
+    "buffer": "github:jspm/nodelibs@0.0.2/buffer",
+    "console": "github:jspm/nodelibs@0.0.2/console",
+    "constants": "github:jspm/nodelibs@0.0.2/constants",
+    "domain": "github:jspm/nodelibs@0.0.2/domain",
+    "events": "github:jspm/nodelibs@0.0.2/events",
+    "fs": "github:jspm/nodelibs@0.0.2/fs",
+    "http": "github:jspm/nodelibs@0.0.2/http",
+    "https": "github:jspm/nodelibs@0.0.2/https",
+    "os": "github:jspm/nodelibs@0.0.2/os",
+    "path": "github:jspm/nodelibs@0.0.2/path",
+    "punycode": "github:jspm/nodelibs@0.0.2/punycode",
+    "querystring": "github:jspm/nodelibs@0.0.2/querystring",
+    "string_decorder": "github:jspm/nodelibs@0.0.2/string_decorder",
+    "stream": "github:jspm/nodelibs@0.0.2/stream",
+    "timers": "github:jspm/nodelibs@0.0.2/timers",
+    "tls": "github:jspm/nodelibs@0.0.2/tls",
+    "tty": "github:jspm/nodelibs@0.0.2/tty",
+    "url": "github:jspm/nodelibs@0.0.2/url",
+    "util": "github:jspm/nodelibs@0.0.2/util",
+    "vm": "github:jspm/nodelibs@0.0.2/vm",
+    "zlib": "github:jspm/nodelibs@0.0.2/zlib",
+    "process": "@@nodeProcess"
+  },
+  "buildConfig": {
+    "minify": true
+  },
+  "useJSExtensions": true
+}

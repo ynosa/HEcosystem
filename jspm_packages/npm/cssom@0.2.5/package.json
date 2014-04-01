@@ -1,0 +1,72 @@
+{
+  "name": "cssom",
+  "description": "CSS Object Model implementation and CSS parser",
+  "keywords": [
+    "CSS",
+    "CSSOM",
+    "parser",
+    "styleSheet"
+  ],
+  "version": "0.2.5",
+  "homepage": "https://github.com/NV/CSSOM",
+  "author": "Nikita Vasilyev <me@elv1s.ru>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/NV/CSSOM.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NV/CSSOM/issues"
+  },
+  "main": "./lib/index.js",
+  "engines": {
+    "node": ">=0.2.0"
+  },
+  "devDependencies": {
+    "jake": "0.2.x"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://creativecommons.org/licenses/MIT/"
+    }
+  ],
+  "scripts": {
+    "prepublish": "jake lib/index.js"
+  },
+  "dependencies": {
+    "nodelibs": "github:jspm/nodelibs@0.0.2"
+  },
+  "registry": "jspm",
+  "map": {
+    "assert": "github:jspm/nodelibs@0.0.2/assert",
+    "buffer": "github:jspm/nodelibs@0.0.2/buffer",
+    "console": "github:jspm/nodelibs@0.0.2/console",
+    "constants": "github:jspm/nodelibs@0.0.2/constants",
+    "domain": "github:jspm/nodelibs@0.0.2/domain",
+    "events": "github:jspm/nodelibs@0.0.2/events",
+    "fs": "github:jspm/nodelibs@0.0.2/fs",
+    "http": "github:jspm/nodelibs@0.0.2/http",
+    "https": "github:jspm/nodelibs@0.0.2/https",
+    "os": "github:jspm/nodelibs@0.0.2/os",
+    "path": "github:jspm/nodelibs@0.0.2/path",
+    "punycode": "github:jspm/nodelibs@0.0.2/punycode",
+    "querystring": "github:jspm/nodelibs@0.0.2/querystring",
+    "string_decorder": "github:jspm/nodelibs@0.0.2/string_decorder",
+    "stream": "github:jspm/nodelibs@0.0.2/stream",
+    "timers": "github:jspm/nodelibs@0.0.2/timers",
+    "tls": "github:jspm/nodelibs@0.0.2/tls",
+    "tty": "github:jspm/nodelibs@0.0.2/tty",
+    "url": "github:jspm/nodelibs@0.0.2/url",
+    "util": "github:jspm/nodelibs@0.0.2/util",
+    "vm": "github:jspm/nodelibs@0.0.2/vm",
+    "zlib": "github:jspm/nodelibs@0.0.2/zlib",
+    "process": "@@nodeProcess"
+  },
+  "buildConfig": {
+    "minify": true
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "useJSExtensions": true
+}

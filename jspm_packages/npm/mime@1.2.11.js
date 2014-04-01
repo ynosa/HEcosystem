@@ -1,0 +1,1 @@
+export * from "npm:mime@1.2.11/mime";

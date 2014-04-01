@@ -1,0 +1,52 @@
+{
+  "name": "nan",
+  "version": "0.8.0",
+  "description": "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+  "main": "include_dirs.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rvagg/nan.git"
+  },
+  "contributors": [
+    "Rod Vagg <r@va.gg> (https://github.com/rvagg)",
+    "Benjamin Byholm <bbyholm@abo.fi> (https://github.com/kkoopa/)",
+    "Trevor Norris <trev.norris@gmail.com> (https://github.com/trevnorris)",
+    "Nathan Rajlich <nathan@tootallnate.net> (https://github.com/TooTallNate)",
+    "Brett Lawson <brett19@gmail.com> (https://github.com/brett19)",
+    "Ben Noordhuis <info@bnoordhuis.nl> (https://github.com/bnoordhuis)"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "nodelibs": "github:jspm/nodelibs@0.0.2"
+  },
+  "registry": "jspm",
+  "map": {
+    "assert": "github:jspm/nodelibs@0.0.2/assert",
+    "buffer": "github:jspm/nodelibs@0.0.2/buffer",
+    "console": "github:jspm/nodelibs@0.0.2/console",
+    "constants": "github:jspm/nodelibs@0.0.2/constants",
+    "domain": "github:jspm/nodelibs@0.0.2/domain",
+    "events": "github:jspm/nodelibs@0.0.2/events",
+    "fs": "github:jspm/nodelibs@0.0.2/fs",
+    "http": "github:jspm/nodelibs@0.0.2/http",
+    "https": "github:jspm/nodelibs@0.0.2/https",
+    "os": "github:jspm/nodelibs@0.0.2/os",
+    "path": "github:jspm/nodelibs@0.0.2/path",
+    "punycode": "github:jspm/nodelibs@0.0.2/punycode",
+    "querystring": "github:jspm/nodelibs@0.0.2/querystring",
+    "string_decorder": "github:jspm/nodelibs@0.0.2/string_decorder",
+    "stream": "github:jspm/nodelibs@0.0.2/stream",
+    "timers": "github:jspm/nodelibs@0.0.2/timers",
+    "tls": "github:jspm/nodelibs@0.0.2/tls",
+    "tty": "github:jspm/nodelibs@0.0.2/tty",
+    "url": "github:jspm/nodelibs@0.0.2/url",
+    "util": "github:jspm/nodelibs@0.0.2/util",
+    "vm": "github:jspm/nodelibs@0.0.2/vm",
+    "zlib": "github:jspm/nodelibs@0.0.2/zlib",
+    "process": "@@nodeProcess"
+  },
+  "buildConfig": {
+    "minify": true
+  },
+  "useJSExtensions": true
+}

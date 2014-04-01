@@ -1,0 +1,3 @@
+//.CommonJS
+var CSSOM={};CSSOM.MediaList=function(){this.length=0},CSSOM.MediaList.prototype={constructor:CSSOM.MediaList,get mediaText(){return Array.prototype.join.call(this,", ")},set mediaText(e){for(var t=e.split(","),n=this.length=t.length,r=0;n>r;r++)this[r]=t[r].trim()},appendMedium:function(e){-1===Array.prototype.indexOf.call(this,e)&&(this[this.length]=e,this.length++)},deleteMedium:function(e){var t=Array.prototype.indexOf.call(this,e);-1!==t&&Array.prototype.splice.call(this,t,1)}},exports.MediaList=CSSOM.MediaList;
+//# sourceMappingURL=jspm_packages/npm/cssom@0.2.5/MediaList.js.map
