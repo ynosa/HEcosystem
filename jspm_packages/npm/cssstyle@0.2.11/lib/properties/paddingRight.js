@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('padding-right', v);
-    },
-    get: function () {
-        return this.getPropertyValue('padding-right');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("padding-right",e)},get:function(){return this.getPropertyValue("padding-right")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\paddingRight.js.map

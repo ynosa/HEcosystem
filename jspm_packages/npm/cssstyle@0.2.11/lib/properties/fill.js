@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('fill', v);
-    },
-    get: function () {
-        return this.getPropertyValue('fill');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(t){this.setProperty("fill",t)},get:function(){return this.getPropertyValue("fill")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\fill.js.map

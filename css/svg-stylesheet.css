@@ -1,0 +1,57 @@
+.node {
+    /*pointer-events: all;*/
+}
+
+.link {
+    stroke-opacity: 0.0008;
+    stroke-width: 6;
+    stroke: rgb(20, 20, 20);
+}
+
+.link.uses:hover {
+    stroke: rgb(200, 0, 0);
+}
+
+.link text {
+    text-anchor: middle;
+    /*fill: rgb(255, 255, 255);*/
+    font-size: 9px;
+    font-weight: 100;
+    stroke-opacity: 0.9;
+}
+
+.link.uses text {
+    text-anchor: middle;
+    /*fill: rgb(255, 255, 255);*/
+    font-size: 9px;
+    font-weight: 100;
+}
+
+.link.stores text {
+    text-anchor: middle;
+    fill: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.link.stores:hover {
+    stroke: rgb(200, 200, 0);
+}
+
+.fs circle{
+    stroke-width : 5px;
+    stroke: rgb(185, 68, 49);
+    fill: rgb(0, 0, 0);
+}
+
+.fs circle{
+    stroke-width : 5px;
+    stroke: rgb(185, 68, 49);
+    fill: rgb(0, 0, 0);
+}
+
+.mr circle{
+    stroke-width : 5px;
+    stroke: rgb(218, 153, 28);
+    fill: rgb(0, 0, 0);
+}

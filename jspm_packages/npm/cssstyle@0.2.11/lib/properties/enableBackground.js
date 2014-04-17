@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('enable-background', v);
-    },
-    get: function () {
-        return this.getPropertyValue('enable-background');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(t){this.setProperty("enable-background",t)},get:function(){return this.getPropertyValue("enable-background")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\enableBackground.js.map

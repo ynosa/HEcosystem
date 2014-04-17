@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('-webkit-column-break-before', v);
-    },
-    get: function () {
-        return this.getPropertyValue('-webkit-column-break-before');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("-webkit-column-break-before",e)},get:function(){return this.getPropertyValue("-webkit-column-break-before")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\webkitColumnBreakBefore.js.map

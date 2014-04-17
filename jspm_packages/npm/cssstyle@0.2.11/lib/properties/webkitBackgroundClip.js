@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('-webkit-background-clip', v);
-    },
-    get: function () {
-        return this.getPropertyValue('-webkit-background-clip');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("-webkit-background-clip",e)},get:function(){return this.getPropertyValue("-webkit-background-clip")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\webkitBackgroundClip.js.map

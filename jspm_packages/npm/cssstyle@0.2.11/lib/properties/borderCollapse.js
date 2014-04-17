@@ -1,25 +1,2 @@
-'use strict';
-
-var parsers = require('../parsers');
-
-var parse = function parse(v) {
-    if (parsers.valueType(v) === parsers.TYPES.KEYWORD && (v.toLowerCase() === 'collapse' || v.toLowerCase() === 'separate' || v.toLowerCase() === 'inherit')) {
-        return v;
-    }
-    return undefined;
-};
-
-module.exports.isValid = function isValid(v) {
-    return parse(v) !== undefined;
-};
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('border-collapse', parse(v));
-    },
-    get: function () {
-        return this.getPropertyValue('border-collapse');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";var parsers=require("../parsers"),parse=function(t){return parsers.valueType(t)!==parsers.TYPES.KEYWORD||"collapse"!==t.toLowerCase()&&"separate"!==t.toLowerCase()&&"inherit"!==t.toLowerCase()?void 0:t};module.exports.isValid=function(t){return void 0!==parse(t)},module.exports.definition={set:function(t){this.setProperty("border-collapse",parse(t))},get:function(){return this.getPropertyValue("border-collapse")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\borderCollapse.js.map

@@ -1,16 +1,2 @@
-'use strict';
-
-var isValid = module.exports.isValid = require('./borderWidth').isValid;
-
-module.exports.definition = {
-    set: function (v) {
-        if (isValid(v)) {
-            this.setProperty('border-right-width', v);
-        }
-    },
-    get: function () {
-        return this.getPropertyValue('border-right-width');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";var isValid=module.exports.isValid=require("./borderWidth").isValid;module.exports.definition={set:function(t){isValid(t)&&this.setProperty("border-right-width",t)},get:function(){return this.getPropertyValue("border-right-width")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\borderRightWidth.js.map

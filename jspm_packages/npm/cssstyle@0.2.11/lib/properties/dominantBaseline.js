@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('dominant-baseline', v);
-    },
-    get: function () {
-        return this.getPropertyValue('dominant-baseline');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(t){this.setProperty("dominant-baseline",t)},get:function(){return this.getPropertyValue("dominant-baseline")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\dominantBaseline.js.map

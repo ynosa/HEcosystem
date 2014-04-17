@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('-webkit-flex-line-pack', v);
-    },
-    get: function () {
-        return this.getPropertyValue('-webkit-flex-line-pack');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("-webkit-flex-line-pack",e)},get:function(){return this.getPropertyValue("-webkit-flex-line-pack")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\webkitFlexLinePack.js.map

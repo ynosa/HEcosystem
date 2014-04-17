@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('-webkit-border-horizontal-spacing', v);
-    },
-    get: function () {
-        return this.getPropertyValue('-webkit-border-horizontal-spacing');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("-webkit-border-horizontal-spacing",e)},get:function(){return this.getPropertyValue("-webkit-border-horizontal-spacing")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\webkitBorderHorizontalSpacing.js.map

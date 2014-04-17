@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('counter-reset', v);
-    },
-    get: function () {
-        return this.getPropertyValue('counter-reset');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(t){this.setProperty("counter-reset",t)},get:function(){return this.getPropertyValue("counter-reset")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\counterReset.js.map

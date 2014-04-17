@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('-webkit-animation-timing-function', v);
-    },
-    get: function () {
-        return this.getPropertyValue('-webkit-animation-timing-function');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("-webkit-animation-timing-function",e)},get:function(){return this.getPropertyValue("-webkit-animation-timing-function")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\webkitAnimationTimingFunction.js.map

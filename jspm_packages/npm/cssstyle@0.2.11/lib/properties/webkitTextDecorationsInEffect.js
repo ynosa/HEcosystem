@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('-webkit-text-decorations-in-effect', v);
-    },
-    get: function () {
-        return this.getPropertyValue('-webkit-text-decorations-in-effect');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("-webkit-text-decorations-in-effect",e)},get:function(){return this.getPropertyValue("-webkit-text-decorations-in-effect")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\webkitTextDecorationsInEffect.js.map

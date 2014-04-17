@@ -1,44 +1,78 @@
 {
-    "name": "cssstyle",
-    "description": "CSSStyleDeclaration Object Model implementation",
-    "keywords": ["CSS", "CSSStyleDeclaration", "StyleSheet"],
-    "version": "0.2.11",
-    "homepage": "https://github.com/chad3814/CSSStyleDeclaration",
-    "maintainers": [{
-        "name": "Chad Walker",
-        "email": "chad@chad-cat-lore-eddie.com",
-        "url": "https://github.com/chad3814"
-    }],
-    "contributors": [
-        {
-            "name": "Nikita Vasilyev",
-            "email": "me@elv1s.ru"
-        }
-    ],
-    "repository": {
-	"type": "git",
-	"url": "git://github.com/chad3814/CSSStyleDeclaration.git"
-    },
-    "bugs": {
-	"url": "https://github.com/chad3814/CSSStyleDeclaration/issues"
-    },
-    "directories": {
-	"lib": "./lib"
-    },
-    "main": "./lib/CSSStyleDeclaration.js",
-    "dependencies": {
-        "cssom"      : "0.3.x"
-    },
-    "devDependencies" : {
-      "nodeunit": "~0.8.0"
-    },
-    "scripts": {
-        "test": "nodeunit tests"
-    },
-    "licenses": [
-	{
-	    "type": "MIT",
-	    "url": "http://creativecommons.org/licenses/MIT/"
-	}
-    ]
+  "name": "cssstyle",
+  "description": "CSSStyleDeclaration Object Model implementation",
+  "keywords": [
+    "CSS",
+    "CSSStyleDeclaration",
+    "StyleSheet"
+  ],
+  "version": "0.2.11",
+  "homepage": "https://github.com/chad3814/CSSStyleDeclaration",
+  "maintainers": [
+    {
+      "name": "Chad Walker",
+      "email": "chad@chad-cat-lore-eddie.com",
+      "url": "https://github.com/chad3814"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Nikita Vasilyev",
+      "email": "me@elv1s.ru"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chad3814/CSSStyleDeclaration.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chad3814/CSSStyleDeclaration/issues"
+  },
+  "main": "./lib/CSSStyleDeclaration.js",
+  "dependencies": {
+    "cssom": "npm:cssom@0.3",
+    "nodelibs": "github:jspm/nodelibs@0.0.2"
+  },
+  "devDependencies": {
+    "nodeunit": "~0.8.0"
+  },
+  "scripts": {
+    "test": "nodeunit tests"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://creativecommons.org/licenses/MIT/"
+    }
+  ],
+  "registry": "jspm",
+  "map": {
+    "assert": "github:jspm/nodelibs@0.0.2/assert",
+    "buffer": "github:jspm/nodelibs@0.0.2/buffer",
+    "console": "github:jspm/nodelibs@0.0.2/console",
+    "constants": "github:jspm/nodelibs@0.0.2/constants",
+    "domain": "github:jspm/nodelibs@0.0.2/domain",
+    "events": "github:jspm/nodelibs@0.0.2/events",
+    "fs": "github:jspm/nodelibs@0.0.2/fs",
+    "http": "github:jspm/nodelibs@0.0.2/http",
+    "https": "github:jspm/nodelibs@0.0.2/https",
+    "os": "github:jspm/nodelibs@0.0.2/os",
+    "path": "github:jspm/nodelibs@0.0.2/path",
+    "punycode": "github:jspm/nodelibs@0.0.2/punycode",
+    "querystring": "github:jspm/nodelibs@0.0.2/querystring",
+    "string_decorder": "github:jspm/nodelibs@0.0.2/string_decorder",
+    "stream": "github:jspm/nodelibs@0.0.2/stream",
+    "timers": "github:jspm/nodelibs@0.0.2/timers",
+    "tls": "github:jspm/nodelibs@0.0.2/tls",
+    "tty": "github:jspm/nodelibs@0.0.2/tty",
+    "url": "github:jspm/nodelibs@0.0.2/url",
+    "util": "github:jspm/nodelibs@0.0.2/util",
+    "vm": "github:jspm/nodelibs@0.0.2/vm",
+    "zlib": "github:jspm/nodelibs@0.0.2/zlib",
+    "process": "@@nodeProcess"
+  },
+  "buildConfig": {
+    "minify": true
+  },
+  "useJSExtensions": true
 }

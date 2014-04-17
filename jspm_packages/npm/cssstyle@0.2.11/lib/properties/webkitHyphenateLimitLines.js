@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('-webkit-hyphenate-limit-lines', v);
-    },
-    get: function () {
-        return this.getPropertyValue('-webkit-hyphenate-limit-lines');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("-webkit-hyphenate-limit-lines",e)},get:function(){return this.getPropertyValue("-webkit-hyphenate-limit-lines")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\webkitHyphenateLimitLines.js.map

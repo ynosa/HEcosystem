@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('background-size', v);
-    },
-    get: function () {
-        return this.getPropertyValue('background-size');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(t){this.setProperty("background-size",t)},get:function(){return this.getPropertyValue("background-size")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\backgroundSize.js.map

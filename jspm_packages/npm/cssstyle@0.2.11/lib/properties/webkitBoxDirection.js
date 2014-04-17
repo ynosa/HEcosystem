@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('-webkit-box-direction', v);
-    },
-    get: function () {
-        return this.getPropertyValue('-webkit-box-direction');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("-webkit-box-direction",e)},get:function(){return this.getPropertyValue("-webkit-box-direction")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\webkitBoxDirection.js.map

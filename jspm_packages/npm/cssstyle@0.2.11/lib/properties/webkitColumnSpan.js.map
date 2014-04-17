@@ -1,0 +1,1 @@
+{"version":3,"file":"webkitColumnSpan.js","sources":["webkitColumnSpan.src.js"],"names":["module","exports","definition","set","v","this","setProperty","get","getPropertyValue","enumerable","configurable"],"mappings":"AAAA,YAEAA,QAAOC,QAAQC,YACXC,IAAK,SAAUC,GACXC,KAAKC,YAAY,sBAAuBF,IAE5CG,IAAK,WACD,MAAOF,MAAKG,iBAAiB,wBAEjCC,YAAY,EACZC,cAAc"}

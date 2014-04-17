@@ -1,21 +1,2 @@
-'use strict';
-
-var TYPES = require('../parsers').TYPES;
-var valueType = require('../parsers').valueType;
-
-module.exports.isValid = function isValid(v) {
-    var type = valueType(v);
-    return (type === TYPES.KEYWORD && (v.toLowerCase() === 'normal') || (v.toLowerCase() === 'inherit')) ||
-        type === TYPES.NUMBER || type === TYPES.LENGTH || type === TYPES.PERCENT;
-};
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('line-height', v);
-    },
-    get: function () {
-        return this.getPropertyValue('line-height');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";var TYPES=require("../parsers").TYPES,valueType=require("../parsers").valueType;module.exports.isValid=function(e){var t=valueType(e);return t===TYPES.KEYWORD&&"normal"===e.toLowerCase()||"inherit"===e.toLowerCase()||t===TYPES.NUMBER||t===TYPES.LENGTH||t===TYPES.PERCENT},module.exports.definition={set:function(e){this.setProperty("line-height",e)},get:function(){return this.getPropertyValue("line-height")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\lineHeight.js.map

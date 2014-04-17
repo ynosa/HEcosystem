@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('-webkit-text-stroke', v);
-    },
-    get: function () {
-        return this.getPropertyValue('-webkit-text-stroke');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("-webkit-text-stroke",e)},get:function(){return this.getPropertyValue("-webkit-text-stroke")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\webkitTextStroke.js.map

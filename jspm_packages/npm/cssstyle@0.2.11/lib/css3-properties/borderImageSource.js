@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('border-image-source', v);
-    },
-    get: function () {
-        return this.getPropertyValue('border-image-source');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(t){this.setProperty("border-image-source",t)},get:function(){return this.getPropertyValue("border-image-source")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\css3-properties\borderImageSource.js.map

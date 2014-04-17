@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('-webkit-color-correction', v);
-    },
-    get: function () {
-        return this.getPropertyValue('-webkit-color-correction');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("-webkit-color-correction",e)},get:function(){return this.getPropertyValue("-webkit-color-correction")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\webkitColorCorrection.js.map

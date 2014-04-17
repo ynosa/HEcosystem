@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('padding-bottom', v);
-    },
-    get: function () {
-        return this.getPropertyValue('padding-bottom');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("padding-bottom",e)},get:function(){return this.getPropertyValue("padding-bottom")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\paddingBottom.js.map

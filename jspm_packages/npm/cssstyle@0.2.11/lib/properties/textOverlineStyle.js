@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('text-overline-style', v);
-    },
-    get: function () {
-        return this.getPropertyValue('text-overline-style');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("text-overline-style",e)},get:function(){return this.getPropertyValue("text-overline-style")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\textOverlineStyle.js.map

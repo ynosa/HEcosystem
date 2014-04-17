@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('font-stretch', v);
-    },
-    get: function () {
-        return this.getPropertyValue('font-stretch');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(t){this.setProperty("font-stretch",t)},get:function(){return this.getPropertyValue("font-stretch")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\fontStretch.js.map

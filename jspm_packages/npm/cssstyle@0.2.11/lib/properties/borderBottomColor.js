@@ -1,16 +1,2 @@
-'use strict';
-
-var isValid = module.exports.isValid = require('./borderColor').isValid;
-
-module.exports.definition = {
-    set: function (v) {
-        if (isValid(v)) {
-            this.setProperty('border-bottom-color', v);
-        }
-    },
-    get: function () {
-        return this.getPropertyValue('border-bottom-color');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";var isValid=module.exports.isValid=require("./borderColor").isValid;module.exports.definition={set:function(t){isValid(t)&&this.setProperty("border-bottom-color",t)},get:function(){return this.getPropertyValue("border-bottom-color")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\borderBottomColor.js.map

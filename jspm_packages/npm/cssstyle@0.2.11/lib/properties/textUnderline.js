@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('text-underline', v);
-    },
-    get: function () {
-        return this.getPropertyValue('text-underline');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("text-underline",e)},get:function(){return this.getPropertyValue("text-underline")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\textUnderline.js.map

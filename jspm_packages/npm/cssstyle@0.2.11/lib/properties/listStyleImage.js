@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('list-style-image', v);
-    },
-    get: function () {
-        return this.getPropertyValue('list-style-image');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("list-style-image",e)},get:function(){return this.getPropertyValue("list-style-image")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\listStyleImage.js.map

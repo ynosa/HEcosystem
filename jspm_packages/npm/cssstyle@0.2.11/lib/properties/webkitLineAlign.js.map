@@ -1,0 +1,1 @@
+{"version":3,"file":"webkitLineAlign.js","sources":["webkitLineAlign.src.js"],"names":["module","exports","definition","set","v","this","setProperty","get","getPropertyValue","enumerable","configurable"],"mappings":"AAAA,YAEAA,QAAOC,QAAQC,YACXC,IAAK,SAAUC,GACXC,KAAKC,YAAY,qBAAsBF,IAE3CG,IAAK,WACD,MAAOF,MAAKG,iBAAiB,uBAEjCC,YAAY,EACZC,cAAc"}

@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('-webkit-region-break-before', v);
-    },
-    get: function () {
-        return this.getPropertyValue('-webkit-region-break-before');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("-webkit-region-break-before",e)},get:function(){return this.getPropertyValue("-webkit-region-break-before")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\webkitRegionBreakBefore.js.map

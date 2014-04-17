@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('-webkit-background-origin', v);
-    },
-    get: function () {
-        return this.getPropertyValue('-webkit-background-origin');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("-webkit-background-origin",e)},get:function(){return this.getPropertyValue("-webkit-background-origin")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\webkitBackgroundOrigin.js.map

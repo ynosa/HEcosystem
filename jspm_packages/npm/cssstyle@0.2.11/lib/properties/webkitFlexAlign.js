@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('-webkit-flex-align', v);
-    },
-    get: function () {
-        return this.getPropertyValue('-webkit-flex-align');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("-webkit-flex-align",e)},get:function(){return this.getPropertyValue("-webkit-flex-align")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\webkitFlexAlign.js.map

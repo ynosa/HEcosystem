@@ -1,0 +1,2 @@
+var http=require("./http"),https=module.exports;for(var key in http)http.hasOwnProperty(key)&&(https[key]=http[key]);https.request=function(t,e){return t||(t={}),t.scheme="https",http.request.call(this,t,e)};
+//# sourceMappingURL=jspm_packages\github\jspm\nodelibs@0.0.2/https.js.map

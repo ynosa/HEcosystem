@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('-webkit-flex-order', v);
-    },
-    get: function () {
-        return this.getPropertyValue('-webkit-flex-order');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("-webkit-flex-order",e)},get:function(){return this.getPropertyValue("-webkit-flex-order")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\webkitFlexOrder.js.map

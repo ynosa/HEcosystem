@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('-webkit-transition-delay', v);
-    },
-    get: function () {
-        return this.getPropertyValue('-webkit-transition-delay');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("-webkit-transition-delay",e)},get:function(){return this.getPropertyValue("-webkit-transition-delay")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\webkitTransitionDelay.js.map

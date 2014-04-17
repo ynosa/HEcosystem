@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('border-image-slice', v);
-    },
-    get: function () {
-        return this.getPropertyValue('border-image-slice');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(t){this.setProperty("border-image-slice",t)},get:function(){return this.getPropertyValue("border-image-slice")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\css3-properties\borderImageSlice.js.map

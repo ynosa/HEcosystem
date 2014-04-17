@@ -1,0 +1,1 @@
+{"version":3,"file":"webkitRegionOverflow.js","sources":["webkitRegionOverflow.src.js"],"names":["module","exports","definition","set","v","this","setProperty","get","getPropertyValue","enumerable","configurable"],"mappings":"AAAA,YAEAA,QAAOC,QAAQC,YACXC,IAAK,SAAUC,GACXC,KAAKC,YAAY,0BAA2BF,IAEhDG,IAAK,WACD,MAAOF,MAAKG,iBAAiB,4BAEjCC,YAAY,EACZC,cAAc"}

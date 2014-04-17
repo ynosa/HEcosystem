@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('-webkit-nbsp-mode', v);
-    },
-    get: function () {
-        return this.getPropertyValue('-webkit-nbsp-mode');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("-webkit-nbsp-mode",e)},get:function(){return this.getPropertyValue("-webkit-nbsp-mode")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\webkitNbspMode.js.map

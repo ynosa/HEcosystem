@@ -1,0 +1,3 @@
+// Copyright Joyent, Inc. and other Node contributors.
+function PassThrough(t){return this instanceof PassThrough?void Transform.call(this,t):new PassThrough(t)}module.exports=PassThrough;var Transform=require("./transform"),inherits=require("npm:inherits@^2.0.1");inherits(PassThrough,Transform),PassThrough.prototype._transform=function(t,e,n){n(null,t)};
+//# sourceMappingURL=jspm_packages\github\jspm\nodelibs@0.0.2/stream\passthrough.js.map

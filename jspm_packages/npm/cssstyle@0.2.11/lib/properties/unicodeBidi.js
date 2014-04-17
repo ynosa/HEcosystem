@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('unicode-bidi', v);
-    },
-    get: function () {
-        return this.getPropertyValue('unicode-bidi');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("unicode-bidi",e)},get:function(){return this.getPropertyValue("unicode-bidi")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\unicodeBidi.js.map

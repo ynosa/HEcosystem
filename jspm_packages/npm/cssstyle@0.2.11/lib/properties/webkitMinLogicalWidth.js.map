@@ -1,0 +1,1 @@
+{"version":3,"file":"webkitMinLogicalWidth.js","sources":["webkitMinLogicalWidth.src.js"],"names":["module","exports","definition","set","v","this","setProperty","get","getPropertyValue","enumerable","configurable"],"mappings":"AAAA,YAEAA,QAAOC,QAAQC,YACXC,IAAK,SAAUC,GACXC,KAAKC,YAAY,4BAA6BF,IAElDG,IAAK,WACD,MAAOF,MAAKG,iBAAiB,8BAEjCC,YAAY,EACZC,cAAc"}

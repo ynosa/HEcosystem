@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('glyph-orientation-horizontal', v);
-    },
-    get: function () {
-        return this.getPropertyValue('glyph-orientation-horizontal');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(t){this.setProperty("glyph-orientation-horizontal",t)},get:function(){return this.getPropertyValue("glyph-orientation-horizontal")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\glyphOrientationHorizontal.js.map

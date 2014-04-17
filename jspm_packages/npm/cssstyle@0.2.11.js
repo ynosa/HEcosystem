@@ -1,0 +1,1 @@
+export * from "npm:cssstyle@0.2.11/lib/CSSStyleDeclaration";

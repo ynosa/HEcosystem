@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('-webkit-border-after-style', v);
-    },
-    get: function () {
-        return this.getPropertyValue('-webkit-border-after-style');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("-webkit-border-after-style",e)},get:function(){return this.getPropertyValue("-webkit-border-after-style")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\webkitBorderAfterStyle.js.map

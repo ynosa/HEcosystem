@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('-webkit-transform-origin-z', v);
-    },
-    get: function () {
-        return this.getPropertyValue('-webkit-transform-origin-z');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("-webkit-transform-origin-z",e)},get:function(){return this.getPropertyValue("-webkit-transform-origin-z")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\webkitTransformOriginZ.js.map

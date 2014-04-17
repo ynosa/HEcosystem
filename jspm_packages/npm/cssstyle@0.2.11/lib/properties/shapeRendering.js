@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('shape-rendering', v);
-    },
-    get: function () {
-        return this.getPropertyValue('shape-rendering');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("shape-rendering",e)},get:function(){return this.getPropertyValue("shape-rendering")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\shapeRendering.js.map

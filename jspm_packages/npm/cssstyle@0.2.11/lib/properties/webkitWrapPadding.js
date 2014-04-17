@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('-webkit-wrap-padding', v);
-    },
-    get: function () {
-        return this.getPropertyValue('-webkit-wrap-padding');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("-webkit-wrap-padding",e)},get:function(){return this.getPropertyValue("-webkit-wrap-padding")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\webkitWrapPadding.js.map

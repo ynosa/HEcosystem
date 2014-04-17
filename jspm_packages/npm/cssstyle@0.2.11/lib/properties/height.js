@@ -1,14 +1,2 @@
-'use strict';
-
-var parseMeasurement = require('../parsers').parseMeasurement;
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('height', parseMeasurement(v));
-    },
-    get: function () {
-        return this.getPropertyValue('height');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";var parseMeasurement=require("../parsers").parseMeasurement;module.exports.definition={set:function(t){this.setProperty("height",parseMeasurement(t))},get:function(){return this.getPropertyValue("height")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\height.js.map

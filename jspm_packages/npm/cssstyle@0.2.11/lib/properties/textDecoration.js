@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('text-decoration', v);
-    },
-    get: function () {
-        return this.getPropertyValue('text-decoration');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("text-decoration",e)},get:function(){return this.getPropertyValue("text-decoration")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\textDecoration.js.map

@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('text-transform', v);
-    },
-    get: function () {
-        return this.getPropertyValue('text-transform');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("text-transform",e)},get:function(){return this.getPropertyValue("text-transform")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\textTransform.js.map

@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('-webkit-column-rule-width', v);
-    },
-    get: function () {
-        return this.getPropertyValue('-webkit-column-rule-width');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("-webkit-column-rule-width",e)},get:function(){return this.getPropertyValue("-webkit-column-rule-width")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\webkitColumnRuleWidth.js.map

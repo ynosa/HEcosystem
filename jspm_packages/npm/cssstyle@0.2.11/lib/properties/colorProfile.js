@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('color-profile', v);
-    },
-    get: function () {
-        return this.getPropertyValue('color-profile');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(t){this.setProperty("color-profile",t)},get:function(){return this.getPropertyValue("color-profile")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\colorProfile.js.map

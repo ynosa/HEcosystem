@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('image-rendering', v);
-    },
-    get: function () {
-        return this.getPropertyValue('image-rendering');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(t){this.setProperty("image-rendering",t)},get:function(){return this.getPropertyValue("image-rendering")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\imageRendering.js.map

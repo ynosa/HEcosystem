@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('list-style-type', v);
-    },
-    get: function () {
-        return this.getPropertyValue('list-style-type');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("list-style-type",e)},get:function(){return this.getPropertyValue("list-style-type")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\listStyleType.js.map

@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('caption-side', v);
-    },
-    get: function () {
-        return this.getPropertyValue('caption-side');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(t){this.setProperty("caption-side",t)},get:function(){return this.getPropertyValue("caption-side")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\captionSide.js.map

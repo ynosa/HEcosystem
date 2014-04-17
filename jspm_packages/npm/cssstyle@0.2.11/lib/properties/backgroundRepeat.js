@@ -1,25 +1,2 @@
-'use strict';
-
-var parsers = require('../parsers');
-
-var parse = function parse(v) {
-    if (parsers.valueType(v) === parsers.TYPES.KEYWORD && (v.toLowerCase() === 'repeat' || v.toLowerCase() === 'repeat-x' || v.toLowerCase() === 'repeat-y' || v.toLowerCase() === 'no-repeat' || v.toLowerCase() === 'inherit')) {
-        return v;
-    }
-    return undefined;
-};
-
-module.exports.isValid = function isValid(v) {
-    return parse(v) !== undefined;
-};
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('background-repeat', parse(v));
-    },
-    get: function () {
-        return this.getPropertyValue('background-repeat');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";var parsers=require("../parsers"),parse=function(t){return parsers.valueType(t)!==parsers.TYPES.KEYWORD||"repeat"!==t.toLowerCase()&&"repeat-x"!==t.toLowerCase()&&"repeat-y"!==t.toLowerCase()&&"no-repeat"!==t.toLowerCase()&&"inherit"!==t.toLowerCase()?void 0:t};module.exports.isValid=function(t){return void 0!==parse(t)},module.exports.definition={set:function(t){this.setProperty("background-repeat",parse(t))},get:function(){return this.getPropertyValue("background-repeat")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\backgroundRepeat.js.map

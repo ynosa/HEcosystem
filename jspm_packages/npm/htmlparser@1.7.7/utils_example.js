@@ -1,35 +1,3 @@
 //node --prof --prof_auto profile.js
-//deps/v8/tools/mac-tick-processor v8.log
-var sys = require("sys");
-var htmlparser = require("./lib/htmlparser");
-
-var html = "<a>text a</a><b id='x'>text b</b><c class='y'>text c</c><d id='z' class='w'><e>text e</e></d><g class='g h i'>hhh</g><yy>hellow</yy><yy id='secondyy'>world</yy>";
-
-var handler = new htmlparser.DefaultHandler(function(err, dom) {
-	if (err) {
-		sys.debug("Error: " + err);
-	}
-	else {
-		sys.debug(sys.inspect(dom, false, null));
-		var id = htmlparser.DomUtils.getElementById("x", dom);
-		sys.debug("id: " + sys.inspect(id, false, null));
-		var class = htmlparser.DomUtils.getElements({ class: "y" }, dom);
-		sys.debug("class: " + sys.inspect(class, false, null));
-		var multiclass = htmlparser.DomUtils.getElements({ class: function (value) { return(value && value.indexOf("h") > -1); } }, dom);
-		sys.debug("multiclass: " + sys.inspect(multiclass, false, null));
-		var name = htmlparser.DomUtils.getElementsByTagName("a", dom);
-		sys.debug("name: " + sys.inspect(name, false, null));
-		var text = htmlparser.DomUtils.getElementsByTagType("text", dom);
-		sys.debug("text: " + sys.inspect(text, false, null));
-		var nested = htmlparser.DomUtils.getElements({ tag_name: "d", id: "z", class: "w" }, dom);
-		nested = htmlparser.DomUtils.getElementsByTagName("e", nested);
-		nested = htmlparser.DomUtils.getElementsByTagType("text", nested);
-		sys.debug("nested: " + sys.inspect(nested, false, null));
-		var double = htmlparser.DomUtils.getElementsByTagName("yy", dom);
-		sys.debug("double: " + sys.inspect(double, false, null));
-		var single = htmlparser.DomUtils.getElements( { tag_name: "yy", id: "secondyy" }, dom);
-		sys.debug("single: " + sys.inspect(single, false, null));
-	}
-}, { verbose: false });
-var parser = new htmlparser.Parser(handler);
-parser.parseComplete(html);
+var sys=require("sys"),htmlparser=require("./lib/htmlparser"),html="<a>text a</a><b id='x'>text b</b><c class='y'>text c</c><d id='z' class='w'><e>text e</e></d><g class='g h i'>hhh</g><yy>hellow</yy><yy id='secondyy'>world</yy>",handler=new htmlparser.DefaultHandler(function(t,e){if(t)sys.debug("Error: "+t);else{sys.debug(sys.inspect(e,!1,null));var r=htmlparser.DomUtils.getElementById("x",e);sys.debug("id: "+sys.inspect(r,!1,null));var n=htmlparser.DomUtils.getElements({"class":"y"},e);sys.debug("class: "+sys.inspect(n,!1,null));var i=htmlparser.DomUtils.getElements({"class":function(t){return t&&t.indexOf("h")>-1}},e);sys.debug("multiclass: "+sys.inspect(i,!1,null));var o=htmlparser.DomUtils.getElementsByTagName("a",e);sys.debug("name: "+sys.inspect(o,!1,null));var a=htmlparser.DomUtils.getElementsByTagType("text",e);sys.debug("text: "+sys.inspect(a,!1,null));var s=htmlparser.DomUtils.getElements({tag_name:"d",id:"z","class":"w"},e);s=htmlparser.DomUtils.getElementsByTagName("e",s),s=htmlparser.DomUtils.getElementsByTagType("text",s),sys.debug("nested: "+sys.inspect(s,!1,null));var u=htmlparser.DomUtils.getElementsByTagName("yy",e);sys.debug("double: "+sys.inspect(u,!1,null));var f=htmlparser.DomUtils.getElements({tag_name:"yy",id:"secondyy"},e);sys.debug("single: "+sys.inspect(f,!1,null))}},{verbose:!1}),parser=new htmlparser.Parser(handler);parser.parseComplete(html);
+//# sourceMappingURL=jspm_packages\npm\htmlparser@1.7.7/utils_example.js.map

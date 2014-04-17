@@ -1,18 +1,2 @@
-'use strict';
-
-var valid_weights = ['normal', 'bold', 'bolder', 'lighter', '100', '200', '300', '400', '500', '600', '700', '800', '900', 'inherit'];
-
-module.exports.isValid = function isValid(v) {
-    return valid_weights.indexOf(v.toLowerCase()) !== -1;
-};
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('font-weight', v);
-    },
-    get: function () {
-        return this.getPropertyValue('font-weight');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";var valid_weights=["normal","bold","bolder","lighter","100","200","300","400","500","600","700","800","900","inherit"];module.exports.isValid=function(t){return-1!==valid_weights.indexOf(t.toLowerCase())},module.exports.definition={set:function(t){this.setProperty("font-weight",t)},get:function(){return this.getPropertyValue("font-weight")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\fontWeight.js.map

@@ -1,17 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF8">
     <title></title>
+
+    <!--<script src="bower_components/d3/d3.js"></script>-->
     <script src="https://jspm.io/system@0.5.js"></script>
     <script src="config.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/svg-stylesheet.css">
     <script>
-        System.import('HEcosystem/app').then(function(app) {
+        System.import('HEcosystem/app2').then(function(app) {
             app.start();
+        });
+
+        System.import('HEcosystem/gui').then(function(app) {
+        });
+
+        System.import('HEcosystem/data').then(function(app) {
         });
     </script>
 
 </head>
 <body>
-    <div id="graph" style="height: 400"> </div>
+    <div id="drawing-area"> </div>
 </body>
 </html>

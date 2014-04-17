@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('-webkit-marquee', v);
-    },
-    get: function () {
-        return this.getPropertyValue('-webkit-marquee');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("-webkit-marquee",e)},get:function(){return this.getPropertyValue("-webkit-marquee")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\webkitMarquee.js.map

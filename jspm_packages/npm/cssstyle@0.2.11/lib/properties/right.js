@@ -1,14 +1,2 @@
-'use strict';
-
-var parseMeasurement = require('../parsers').parseMeasurement;
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('right', parseMeasurement(v));
-    },
-    get: function () {
-        return this.getPropertyValue('right');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";var parseMeasurement=require("../parsers").parseMeasurement;module.exports.definition={set:function(e){this.setProperty("right",parseMeasurement(e))},get:function(){return this.getPropertyValue("right")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\right.js.map

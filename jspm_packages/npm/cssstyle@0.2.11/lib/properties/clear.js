@@ -1,16 +1,2 @@
-'use strict';
-
-var parseKeyword = require('../parsers').parseKeyword;
-
-var clear_keywords = [ 'none', 'left', 'right', 'both', 'inherit' ];
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('clear', parseKeyword(v, clear_keywords));
-    },
-    get: function () {
-        return this.getPropertyValue('clear');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";var parseKeyword=require("../parsers").parseKeyword,clear_keywords=["none","left","right","both","inherit"];module.exports.definition={set:function(t){this.setProperty("clear",parseKeyword(t,clear_keywords))},get:function(){return this.getPropertyValue("clear")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\clear.js.map

@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('text-overflow', v);
-    },
-    get: function () {
-        return this.getPropertyValue('text-overflow');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("text-overflow",e)},get:function(){return this.getPropertyValue("text-overflow")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\textOverflow.js.map

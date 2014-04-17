@@ -1,0 +1,3 @@
+// Copyright Joyent, Inc. and other Node contributors.
+"use strict";function hasOwnProperty(t,e){return Object.prototype.hasOwnProperty.call(t,e)}module.exports=function(t,e,n,r){e=e||"&",n=n||"=";var i={};if("string"!=typeof t||0===t.length)return i;var o=/\+/g;t=t.split(e);var a=1e3;r&&"number"==typeof r.maxKeys&&(a=r.maxKeys);var s=t.length;a>0&&s>a&&(s=a);for(var u=0;s>u;++u){var f,l,c,h,p=t[u].replace(o,"%20"),g=p.indexOf(n);g>=0?(f=p.substr(0,g),l=p.substr(g+1)):(f=p,l=""),c=decodeURIComponent(f),h=decodeURIComponent(l),hasOwnProperty(i,c)?Array.isArray(i[c])?i[c].push(h):i[c]=[i[c],h]:i[c]=h}return i};
+//# sourceMappingURL=jspm_packages\github\jspm\nodelibs@0.0.2/querystring\decode.src.js.map

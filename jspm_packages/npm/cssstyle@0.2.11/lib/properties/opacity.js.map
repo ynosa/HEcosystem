@@ -1,0 +1,1 @@
+{"version":3,"file":"opacity.js","sources":["opacity.src.js"],"names":["parseNumber","require","module","exports","definition","set","v","this","setProperty","get","getPropertyValue","enumerable","configurable"],"mappings":"AAAA,YAEA,IAAIA,aAAcC,QAAQ,cAAcD,WAExCE,QAAOC,QAAQC,YACXC,IAAK,SAAUC,GACXC,KAAKC,YAAY,UAAWR,YAAYM,KAE5CG,IAAK,WACD,MAAOF,MAAKG,iBAAiB,YAEjCC,YAAY,EACZC,cAAc"}

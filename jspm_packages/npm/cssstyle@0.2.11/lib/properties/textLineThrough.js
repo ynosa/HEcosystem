@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('text-line-through', v);
-    },
-    get: function () {
-        return this.getPropertyValue('text-line-through');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("text-line-through",e)},get:function(){return this.getPropertyValue("text-line-through")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\textLineThrough.js.map

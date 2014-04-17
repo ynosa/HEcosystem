@@ -1,22 +1,2 @@
-'use strict';
-
-var shorthandParser = require('../parsers').shorthandParser;
-var shorthandSetter = require('../parsers').shorthandSetter;
-var shorthandGetter = require('../parsers').shorthandGetter;
-
-var shorthand_for = {
-    'border-width': require('./borderWidth'),
-    'border-style': require('./borderStyle'),
-    'border-color': require('./borderColor')
-};
-
-module.exports.isValid = function isValid(v) {
-    return shorthandParser(v, shorthand_for) !== undefined;
-};
-
-module.exports.definition = {
-    set: shorthandSetter('border', shorthand_for),
-    get: shorthandGetter('border', shorthand_for),
-    enumerable: true,
-    configurable: true
-};
+"use strict";var shorthandParser=require("../parsers").shorthandParser,shorthandSetter=require("../parsers").shorthandSetter,shorthandGetter=require("../parsers").shorthandGetter,shorthand_for={"border-width":require("./borderWidth"),"border-style":require("./borderStyle"),"border-color":require("./borderColor")};module.exports.isValid=function(t){return void 0!==shorthandParser(t,shorthand_for)},module.exports.definition={set:shorthandSetter("border",shorthand_for),get:shorthandGetter("border",shorthand_for),enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\border.js.map

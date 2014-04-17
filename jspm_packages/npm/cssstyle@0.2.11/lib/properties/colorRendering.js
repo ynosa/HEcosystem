@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('color-rendering', v);
-    },
-    get: function () {
-        return this.getPropertyValue('color-rendering');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(t){this.setProperty("color-rendering",t)},get:function(){return this.getPropertyValue("color-rendering")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\colorRendering.js.map

@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('-webkit-background-composite', v);
-    },
-    get: function () {
-        return this.getPropertyValue('-webkit-background-composite');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("-webkit-background-composite",e)},get:function(){return this.getPropertyValue("-webkit-background-composite")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\webkitBackgroundComposite.js.map

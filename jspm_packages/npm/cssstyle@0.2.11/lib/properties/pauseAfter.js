@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('pause-after', v);
-    },
-    get: function () {
-        return this.getPropertyValue('pause-after');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("pause-after",e)},get:function(){return this.getPropertyValue("pause-after")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\pauseAfter.js.map

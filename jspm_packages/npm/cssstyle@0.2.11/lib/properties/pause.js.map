@@ -1,0 +1,1 @@
+{"version":3,"file":"pause.js","sources":["pause.src.js"],"names":["module","exports","definition","set","v","this","setProperty","get","getPropertyValue","enumerable","configurable"],"mappings":"AAAA,YAEAA,QAAOC,QAAQC,YACXC,IAAK,SAAUC,GACXC,KAAKC,YAAY,QAASF,IAE9BG,IAAK,WACD,MAAOF,MAAKG,iBAAiB,UAEjCC,YAAY,EACZC,cAAc"}

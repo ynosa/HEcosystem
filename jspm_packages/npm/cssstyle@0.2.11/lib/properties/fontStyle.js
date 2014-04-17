@@ -1,18 +1,2 @@
-'use strict';
-
-var valid_styles = ['normal', 'italic', 'oblique', 'inherit'];
-
-module.exports.isValid = function (v) {
-    return valid_styles.indexOf(v.toLowerCase()) !== -1;
-};
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('font-style', v);
-    },
-    get: function () {
-        return this.getPropertyValue('font-style');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";var valid_styles=["normal","italic","oblique","inherit"];module.exports.isValid=function(t){return-1!==valid_styles.indexOf(t.toLowerCase())},module.exports.definition={set:function(t){this.setProperty("font-style",t)},get:function(){return this.getPropertyValue("font-style")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\fontStyle.js.map

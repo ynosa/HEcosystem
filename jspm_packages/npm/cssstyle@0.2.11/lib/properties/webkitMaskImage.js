@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('-webkit-mask-image', v);
-    },
-    get: function () {
-        return this.getPropertyValue('-webkit-mask-image');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("-webkit-mask-image",e)},get:function(){return this.getPropertyValue("-webkit-mask-image")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\webkitMaskImage.js.map

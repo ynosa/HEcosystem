@@ -1,22 +1,2 @@
-'use strict';
-
-var parsers = require('../parsers');
-
-var isValid = module.exports.isValid = function isValid(v) {
-    return parsers.valueType(v) === parsers.TYPES.KEYWORD &&
-        (v.toLowerCase() === 'scroll' || v.toLowerCase() === 'fixed' || v.toLowerCase() === 'inherit');
-};
-
-module.exports.definition = {
-    set: function (v) {
-        if (!isValid(v)) {
-            return;
-        }
-        this.setProperty('background-attachment', v);
-    },
-    get: function () {
-        return this.getPropertyValue('background-attachment');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";var parsers=require("../parsers"),isValid=module.exports.isValid=function(t){return parsers.valueType(t)===parsers.TYPES.KEYWORD&&("scroll"===t.toLowerCase()||"fixed"===t.toLowerCase()||"inherit"===t.toLowerCase())};module.exports.definition={set:function(t){isValid(t)&&this.setProperty("background-attachment",t)},get:function(){return this.getPropertyValue("background-attachment")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\backgroundAttachment.js.map

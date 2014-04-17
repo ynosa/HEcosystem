@@ -1,14 +1,2 @@
-'use strict';
-
-var parseMeasurement = require('../parsers').parseMeasurement;
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('top', parseMeasurement(v));
-    },
-    get: function () {
-        return this.getPropertyValue('top');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";var parseMeasurement=require("../parsers").parseMeasurement;module.exports.definition={set:function(e){this.setProperty("top",parseMeasurement(e))},get:function(){return this.getPropertyValue("top")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\top.js.map

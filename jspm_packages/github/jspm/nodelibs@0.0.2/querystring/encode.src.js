@@ -1,0 +1,3 @@
+// Copyright Joyent, Inc. and other Node contributors.
+"use strict";var stringifyPrimitive=function(t){switch(typeof t){case"string":return t;case"boolean":return t?"true":"false";case"number":return isFinite(t)?t:"";default:return""}};module.exports=function(t,e,n,r){return e=e||"&",n=n||"=",null===t&&(t=void 0),"object"==typeof t?Object.keys(t).map(function(r){var i=encodeURIComponent(stringifyPrimitive(r))+n;return Array.isArray(t[r])?t[r].map(function(t){return i+encodeURIComponent(stringifyPrimitive(t))}).join(e):i+encodeURIComponent(stringifyPrimitive(t[r]))}).join(e):r?encodeURIComponent(stringifyPrimitive(r))+n+encodeURIComponent(stringifyPrimitive(t)):""};
+//# sourceMappingURL=jspm_packages\github\jspm\nodelibs@0.0.2/querystring\encode.src.js.map

@@ -1,16 +1,2 @@
-'use strict';
-
-var isValid = module.exports.isValid = require('./borderWidth').isValid;
-
-module.exports.definition = {
-    set: function (v) {
-        if (isValid(v)) {
-            this.setProperty('border-bottom-width', v);
-        }
-    },
-    get: function () {
-        return this.getPropertyValue('border-bottom-width');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";var isValid=module.exports.isValid=require("./borderWidth").isValid;module.exports.definition={set:function(t){isValid(t)&&this.setProperty("border-bottom-width",t)},get:function(){return this.getPropertyValue("border-bottom-width")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\borderBottomWidth.js.map

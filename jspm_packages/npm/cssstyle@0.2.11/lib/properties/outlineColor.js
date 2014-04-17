@@ -1,14 +1,2 @@
-'use strict';
-
-var parseColor = require('../parsers').parseColor;
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('outline-color', parseColor(v));
-    },
-    get: function () {
-        return this.getPropertyValue('outline-color');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";var parseColor=require("../parsers").parseColor;module.exports.definition={set:function(e){this.setProperty("outline-color",parseColor(e))},get:function(){return this.getPropertyValue("outline-color")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\outlineColor.js.map

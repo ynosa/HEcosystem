@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('-webkit-font-size-delta', v);
-    },
-    get: function () {
-        return this.getPropertyValue('-webkit-font-size-delta');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("-webkit-font-size-delta",e)},get:function(){return this.getPropertyValue("-webkit-font-size-delta")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\webkitFontSizeDelta.js.map

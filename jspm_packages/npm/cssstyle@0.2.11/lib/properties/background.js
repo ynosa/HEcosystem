@@ -1,24 +1,2 @@
-'use strict';
-
-var shorthandParser = require('../parsers').shorthandParser;
-var shorthandSetter = require('../parsers').shorthandSetter;
-var shorthandGetter = require('../parsers').shorthandGetter;
-
-var shorthand_for = {
-    'background-color': require('./backgroundColor'),
-    'background-image': require('./backgroundImage'),
-    'background-repeat': require('./backgroundRepeat'),
-    'background-attachment': require('./backgroundAttachment'),
-    'background-position': require('./backgroundPosition')
-};
-
-module.exports.isValid = function isValid(v) {
-    return shorthandParser(v, shorthand_for) !== undefined;
-};
-
-module.exports.definition = {
-    set: shorthandSetter('background', shorthand_for),
-    get: shorthandGetter('background', shorthand_for),
-    enumerable: true,
-    configurable: true
-};
+"use strict";var shorthandParser=require("../parsers").shorthandParser,shorthandSetter=require("../parsers").shorthandSetter,shorthandGetter=require("../parsers").shorthandGetter,shorthand_for={"background-color":require("./backgroundColor"),"background-image":require("./backgroundImage"),"background-repeat":require("./backgroundRepeat"),"background-attachment":require("./backgroundAttachment"),"background-position":require("./backgroundPosition")};module.exports.isValid=function(t){return void 0!==shorthandParser(t,shorthand_for)},module.exports.definition={set:shorthandSetter("background",shorthand_for),get:shorthandGetter("background",shorthand_for),enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\background.js.map

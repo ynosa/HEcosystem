@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('cue-after', v);
-    },
-    get: function () {
-        return this.getPropertyValue('cue-after');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(t){this.setProperty("cue-after",t)},get:function(){return this.getPropertyValue("cue-after")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\cueAfter.js.map

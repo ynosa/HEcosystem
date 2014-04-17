@@ -1,0 +1,107 @@
+{
+  "name": "d3",
+  "version": "3.4.5",
+  "description": "A small, free JavaScript library for manipulating documents based on data.",
+  "keywords": [
+    "dom",
+    "w3c",
+    "visualization",
+    "svg",
+    "animation",
+    "canvas"
+  ],
+  "homepage": "http://d3js.org",
+  "author": {
+    "name": "Mike Bostock",
+    "url": "http://bost.ocks.org/mike"
+  },
+  "contributors": [
+    {
+      "name": "Jason Davies",
+      "url": "http://jasondavies.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mbostock/d3.git"
+  },
+  "main": "d3.js",
+  "browserify": "d3.js",
+  "jspm": {
+    "main": "d3.js",
+    "shim": {
+      "d3": {
+        "exports": "d3"
+      }
+    },
+    "files": [
+      "d3.js"
+    ],
+    "buildConfig": {
+      "uglify": true
+    }
+  },
+  "jam": {
+    "main": "d3.js",
+    "shim": {
+      "exports": "d3"
+    }
+  },
+  "dependencies": {
+    "jsdom": "npm:jsdom@0.5.7",
+    "nodelibs": "github:jspm/nodelibs@0.0.2"
+  },
+  "devDependencies": {
+    "smash": "~0.0.12",
+    "uglify-js": "2.4.0",
+    "vows": "0.7.0",
+    "seedrandom": "2.3.1"
+  },
+  "scripts": {
+    "test": "vows; echo"
+  },
+  "licenses": [
+    {
+      "type": "BSD",
+      "url": "https://github.com/mbostock/d3/blob/master/LICENSE"
+    }
+  ],
+  "registry": "jspm",
+  "map": {
+    "assert": "github:jspm/nodelibs@0.0.2/assert",
+    "buffer": "github:jspm/nodelibs@0.0.2/buffer",
+    "console": "github:jspm/nodelibs@0.0.2/console",
+    "constants": "github:jspm/nodelibs@0.0.2/constants",
+    "domain": "github:jspm/nodelibs@0.0.2/domain",
+    "events": "github:jspm/nodelibs@0.0.2/events",
+    "fs": "github:jspm/nodelibs@0.0.2/fs",
+    "http": "github:jspm/nodelibs@0.0.2/http",
+    "https": "github:jspm/nodelibs@0.0.2/https",
+    "os": "github:jspm/nodelibs@0.0.2/os",
+    "path": "github:jspm/nodelibs@0.0.2/path",
+    "punycode": "github:jspm/nodelibs@0.0.2/punycode",
+    "querystring": "github:jspm/nodelibs@0.0.2/querystring",
+    "string_decorder": "github:jspm/nodelibs@0.0.2/string_decorder",
+    "stream": "github:jspm/nodelibs@0.0.2/stream",
+    "timers": "github:jspm/nodelibs@0.0.2/timers",
+    "tls": "github:jspm/nodelibs@0.0.2/tls",
+    "tty": "github:jspm/nodelibs@0.0.2/tty",
+    "url": "github:jspm/nodelibs@0.0.2/url",
+    "util": "github:jspm/nodelibs@0.0.2/util",
+    "vm": "github:jspm/nodelibs@0.0.2/vm",
+    "zlib": "github:jspm/nodelibs@0.0.2/zlib",
+    "process": "@@nodeProcess"
+  },
+  "buildConfig": {
+    "uglify": true
+  },
+  "shim": {
+    "d3": {
+      "exports": "d3"
+    }
+  },
+  "files": [
+    "d3.js"
+  ],
+  "useJSExtensions": true
+}

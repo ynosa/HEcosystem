@@ -1,0 +1,2 @@
+module.exports=function(t){return t&&"object"==typeof t&&"function"==typeof t.copy&&"function"==typeof t.fill&&"function"==typeof t.readUInt8};
+//# sourceMappingURL=jspm_packages\github\jspm\nodelibs@0.0.2/support\isBuffer.src.js.map

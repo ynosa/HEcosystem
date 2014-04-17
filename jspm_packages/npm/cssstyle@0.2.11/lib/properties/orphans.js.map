@@ -1,0 +1,1 @@
+{"version":3,"file":"orphans.js","sources":["orphans.src.js"],"names":["module","exports","definition","set","v","this","setProperty","get","getPropertyValue","enumerable","configurable"],"mappings":"AAAA,YAEAA,QAAOC,QAAQC,YACXC,IAAK,SAAUC,GACXC,KAAKC,YAAY,UAAWF,IAEhCG,IAAK,WACD,MAAOF,MAAKG,iBAAiB,YAEjCC,YAAY,EACZC,cAAc"}

@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('-webkit-font-smoothing', v);
-    },
-    get: function () {
-        return this.getPropertyValue('-webkit-font-smoothing');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("-webkit-font-smoothing",e)},get:function(){return this.getPropertyValue("-webkit-font-smoothing")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\webkitFontSmoothing.js.map

@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('-webkit-print-color-adjust', v);
-    },
-    get: function () {
-        return this.getPropertyValue('-webkit-print-color-adjust');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("-webkit-print-color-adjust",e)},get:function(){return this.getPropertyValue("-webkit-print-color-adjust")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\webkitPrintColorAdjust.js.map

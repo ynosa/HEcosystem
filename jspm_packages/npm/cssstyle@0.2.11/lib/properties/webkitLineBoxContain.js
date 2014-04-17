@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('-webkit-line-box-contain', v);
-    },
-    get: function () {
-        return this.getPropertyValue('-webkit-line-box-contain');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("-webkit-line-box-contain",e)},get:function(){return this.getPropertyValue("-webkit-line-box-contain")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\webkitLineBoxContain.js.map

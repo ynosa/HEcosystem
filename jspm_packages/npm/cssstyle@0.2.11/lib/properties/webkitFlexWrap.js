@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('-webkit-flex-wrap', v);
-    },
-    get: function () {
-        return this.getPropertyValue('-webkit-flex-wrap');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("-webkit-flex-wrap",e)},get:function(){return this.getPropertyValue("-webkit-flex-wrap")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\webkitFlexWrap.js.map

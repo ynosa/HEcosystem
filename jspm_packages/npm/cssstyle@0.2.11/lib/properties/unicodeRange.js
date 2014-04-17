@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('unicode-range', v);
-    },
-    get: function () {
-        return this.getPropertyValue('unicode-range');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("unicode-range",e)},get:function(){return this.getPropertyValue("unicode-range")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\unicodeRange.js.map

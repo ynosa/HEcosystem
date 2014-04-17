@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('pointer-events', v);
-    },
-    get: function () {
-        return this.getPropertyValue('pointer-events');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("pointer-events",e)},get:function(){return this.getPropertyValue("pointer-events")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\pointerEvents.js.map

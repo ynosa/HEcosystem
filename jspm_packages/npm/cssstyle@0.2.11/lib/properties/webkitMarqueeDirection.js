@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('-webkit-marquee-direction', v);
-    },
-    get: function () {
-        return this.getPropertyValue('-webkit-marquee-direction');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("-webkit-marquee-direction",e)},get:function(){return this.getPropertyValue("-webkit-marquee-direction")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\webkitMarqueeDirection.js.map

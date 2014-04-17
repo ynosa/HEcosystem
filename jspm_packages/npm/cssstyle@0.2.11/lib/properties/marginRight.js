@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('margin-right', v);
-    },
-    get: function () {
-        return this.getPropertyValue('margin-right');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(t){this.setProperty("margin-right",t)},get:function(){return this.getPropertyValue("margin-right")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\marginRight.js.map

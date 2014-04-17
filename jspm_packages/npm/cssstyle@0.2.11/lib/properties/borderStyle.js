@@ -1,27 +1,2 @@
-'use strict';
-
-var implicitSetter = require('../parsers').implicitSetter;
-
-// the valid border-styles:
-var styles = ['none', 'hidden', 'dotted', 'dashed', 'solid', 'double', 'groove', 'ridge', 'inset', 'outset'];
-
-module.exports.isValid = function parse(v) {
-    return typeof v === 'string' && styles.indexOf(v) !== -1;
-};
-var isValid = module.exports.isValid;
-
-var parser = function (v) {
-    if (isValid(v)) {
-        return v.toLowerCase();
-    }
-    return undefined;
-};
-
-module.exports.definition = {
-    set: implicitSetter('border', 'style', isValid, parser),
-    get: function () {
-        return this.getPropertyValue('border-style');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";var implicitSetter=require("../parsers").implicitSetter,styles=["none","hidden","dotted","dashed","solid","double","groove","ridge","inset","outset"];module.exports.isValid=function(t){return"string"==typeof t&&-1!==styles.indexOf(t)};var isValid=module.exports.isValid,parser=function(t){return isValid(t)?t.toLowerCase():void 0};module.exports.definition={set:implicitSetter("border","style",isValid,parser),get:function(){return this.getPropertyValue("border-style")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\borderStyle.js.map

@@ -1,14 +1,2 @@
-'use strict';
-
-var parseColor = require('../parsers').parseColor;
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('-webkit-text-emphasis-color', parseColor(v));
-    },
-    get: function () {
-        return this.getPropertyValue('-webkit-text-emphasis-color');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";var parseColor=require("../parsers").parseColor;module.exports.definition={set:function(e){this.setProperty("-webkit-text-emphasis-color",parseColor(e))},get:function(){return this.getPropertyValue("-webkit-text-emphasis-color")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\webkitTextEmphasisColor.js.map

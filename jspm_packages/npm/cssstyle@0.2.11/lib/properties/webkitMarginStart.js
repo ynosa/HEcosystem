@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('-webkit-margin-start', v);
-    },
-    get: function () {
-        return this.getPropertyValue('-webkit-margin-start');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("-webkit-margin-start",e)},get:function(){return this.getPropertyValue("-webkit-margin-start")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\webkitMarginStart.js.map

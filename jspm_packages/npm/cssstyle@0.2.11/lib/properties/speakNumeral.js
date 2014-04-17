@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('speak-numeral', v);
-    },
-    get: function () {
-        return this.getPropertyValue('speak-numeral');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("speak-numeral",e)},get:function(){return this.getPropertyValue("speak-numeral")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\speakNumeral.js.map

@@ -1,14 +1,2 @@
-'use strict';
-
-var parseColor = require('../parsers').parseColor;
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('text-underline-color', parseColor(v));
-    },
-    get: function () {
-        return this.getPropertyValue('text-underline-color');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";var parseColor=require("../parsers").parseColor;module.exports.definition={set:function(e){this.setProperty("text-underline-color",parseColor(e))},get:function(){return this.getPropertyValue("text-underline-color")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\textUnderlineColor.js.map

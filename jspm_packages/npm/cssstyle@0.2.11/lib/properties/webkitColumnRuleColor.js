@@ -1,14 +1,2 @@
-'use strict';
-
-var parseColor = require('../parsers').parseColor;
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('-webkit-column-rule-color', parseColor(v));
-    },
-    get: function () {
-        return this.getPropertyValue('-webkit-column-rule-color');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";var parseColor=require("../parsers").parseColor;module.exports.definition={set:function(e){this.setProperty("-webkit-column-rule-color",parseColor(e))},get:function(){return this.getPropertyValue("-webkit-column-rule-color")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\webkitColumnRuleColor.js.map

@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('box-sizing', v);
-    },
-    get: function () {
-        return this.getPropertyValue('box-sizing');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(t){this.setProperty("box-sizing",t)},get:function(){return this.getPropertyValue("box-sizing")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\boxSizing.js.map

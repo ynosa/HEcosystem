@@ -5,5 +5,10 @@
     "dist": "dist"
   },
   "configFile": "config.js",
-  "registry": "jspm"
+  "registry": "jspm",
+  "dependencies": {
+    "npm:d3": "^3.4.5",
+    "underscore": "^1.6.0",
+    "npm:dat-gui": "^0.5.0"
+  }
 }

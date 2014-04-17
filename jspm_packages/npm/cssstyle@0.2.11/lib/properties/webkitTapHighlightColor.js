@@ -1,14 +1,2 @@
-'use strict';
-
-var parseColor = require('../parsers').parseColor;
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('-webkit-tap-highlight-color', parseColor(v));
-    },
-    get: function () {
-        return this.getPropertyValue('-webkit-tap-highlight-color');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";var parseColor=require("../parsers").parseColor;module.exports.definition={set:function(e){this.setProperty("-webkit-tap-highlight-color",parseColor(e))},get:function(){return this.getPropertyValue("-webkit-tap-highlight-color")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\webkitTapHighlightColor.js.map

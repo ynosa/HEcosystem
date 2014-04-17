@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('overflow-x', v);
-    },
-    get: function () {
-        return this.getPropertyValue('overflow-x');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("overflow-x",e)},get:function(){return this.getPropertyValue("overflow-x")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\overflowX.js.map

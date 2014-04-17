@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('stroke-linecap', v);
-    },
-    get: function () {
-        return this.getPropertyValue('stroke-linecap');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("stroke-linecap",e)},get:function(){return this.getPropertyValue("stroke-linecap")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\strokeLinecap.js.map

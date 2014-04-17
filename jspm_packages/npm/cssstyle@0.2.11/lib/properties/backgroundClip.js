@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('background-clip', v);
-    },
-    get: function () {
-        return this.getPropertyValue('background-clip');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(t){this.setProperty("background-clip",t)},get:function(){return this.getPropertyValue("background-clip")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\backgroundClip.js.map

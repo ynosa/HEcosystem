@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('-webkit-flow-from', v);
-    },
-    get: function () {
-        return this.getPropertyValue('-webkit-flow-from');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("-webkit-flow-from",e)},get:function(){return this.getPropertyValue("-webkit-flow-from")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\webkitFlowFrom.js.map

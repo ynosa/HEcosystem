@@ -1,6 +1,2 @@
-var htmlparser = require("./htmlparser");
-exports.Parser = htmlparser.Parser;
-exports.DefaultHandler = htmlparser.DefaultHandler;
-exports.RssHandler = htmlparser.RssHandler;
-exports.ElementType = htmlparser.ElementType;
-exports.DomUtils = htmlparser.DomUtils;
+var htmlparser=require("./htmlparser");exports.Parser=htmlparser.Parser,exports.DefaultHandler=htmlparser.DefaultHandler,exports.RssHandler=htmlparser.RssHandler,exports.ElementType=htmlparser.ElementType,exports.DomUtils=htmlparser.DomUtils;
+//# sourceMappingURL=jspm_packages\npm\htmlparser@1.7.7/lib\node-htmlparser.js.map

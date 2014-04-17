@@ -1,0 +1,3 @@
+//.CommonJS
+var CSSOM={};CSSOM.MatcherList=function(){this.length=0},CSSOM.MatcherList.prototype={constructor:CSSOM.MatcherList,get matcherText(){return Array.prototype.join.call(this,", ")},set matcherText(e){for(var t=e.split(","),r=this.length=t.length,n=0;r>n;n++)this[n]=t[n].trim()},appendMatcher:function(e){-1===Array.prototype.indexOf.call(this,e)&&(this[this.length]=e,this.length++)},deleteMatcher:function(e){var t=Array.prototype.indexOf.call(this,e);-1!==t&&Array.prototype.splice.call(this,t,1)}},exports.MatcherList=CSSOM.MatcherList;
+//# sourceMappingURL=jspm_packages\npm\cssom@0.3.0/lib\MatcherList.js.map

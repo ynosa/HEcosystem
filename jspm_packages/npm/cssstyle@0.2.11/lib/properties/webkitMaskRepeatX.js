@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('-webkit-mask-repeat-x', v);
-    },
-    get: function () {
-        return this.getPropertyValue('-webkit-mask-repeat-x');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("-webkit-mask-repeat-x",e)},get:function(){return this.getPropertyValue("-webkit-mask-repeat-x")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\webkitMaskRepeatX.js.map

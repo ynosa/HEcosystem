@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('margin-bottom', v);
-    },
-    get: function () {
-        return this.getPropertyValue('margin-bottom');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(t){this.setProperty("margin-bottom",t)},get:function(){return this.getPropertyValue("margin-bottom")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\marginBottom.js.map

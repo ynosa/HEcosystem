@@ -1,12 +1,2 @@
-'use strict';
-
-module.exports.definition = {
-    set: function (v) {
-        this.setProperty('-webkit-min-logical-height', v);
-    },
-    get: function () {
-        return this.getPropertyValue('-webkit-min-logical-height');
-    },
-    enumerable: true,
-    configurable: true
-};
+"use strict";module.exports.definition={set:function(e){this.setProperty("-webkit-min-logical-height",e)},get:function(){return this.getPropertyValue("-webkit-min-logical-height")},enumerable:!0,configurable:!0};
+//# sourceMappingURL=jspm_packages\npm\cssstyle@0.2.11/lib\properties\webkitMinLogicalHeight.js.map
