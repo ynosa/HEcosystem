@@ -2,460 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03825552-432d-4ca0-92c5-6ea328924789" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/111.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/app2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/gui.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/gui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLinters/jslint.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/svg-stylesheet.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/tests/01-basic.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/tests/01-basic.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/tests/02-single_tag_1.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/tests/02-single_tag_1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/tests/03-single_tag_2.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/tests/03-single_tag_2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/tests/04-unescaped_in_script.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/tests/04-unescaped_in_script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/tests/05-tags_in_comment.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/tests/05-tags_in_comment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/tests/06-comment_in_script.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/tests/06-comment_in_script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/tests/07-unescaped_in_style.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/tests/07-unescaped_in_style.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/tests/08-extra_spaces_in_tag.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/tests/08-extra_spaces_in_tag.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/tests/09-unquoted_attrib.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/tests/09-unquoted_attrib.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/tests/10-singular_attribute.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/tests/10-singular_attribute.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/tests/11-text_outside_tags.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/tests/11-text_outside_tags.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/tests/12-text_only.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/tests/12-text_only.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/tests/13-comment_in_text.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/tests/13-comment_in_text.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/tests/14-comment_in_text_in_script.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/tests/14-comment_in_text_in_script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/tests/15-non-verbose.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/tests/15-non-verbose.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/tests/16-ignore_whitespace.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/tests/16-ignore_whitespace.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/tests/17-xml_namespace.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/tests/17-xml_namespace.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/tests/18-enforce_empty_tags.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/tests/18-enforce_empty_tags.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/tests/19-ignore_empty_tags.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/tests/19-ignore_empty_tags.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/tests/20-rss.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/tests/20-rss.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/tests/21-atom.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/tests/21-atom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/tests/22-position_data.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/tests/22-position_data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/CHANGELOG" afterPath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/CHANGELOG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/CSSStyleDeclaration.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/CSSStyleDeclaration.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/HEcosystem.iml" afterPath="$PROJECT_DIR$/.idea/HEcosystem.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/LICENSE" afterPath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/MIT-LICENSE.txt" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/MIT-LICENSE.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/README.md" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/README.md" afterPath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/alignmentBaseline.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/alignmentBaseline.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/app.js" afterPath="$PROJECT_DIR$/lib/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/azimuth.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/azimuth.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/background.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/background.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/backgroundAttachment.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/backgroundAttachment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/backgroundClip.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/backgroundClip.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/backgroundColor.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/backgroundColor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/backgroundImage.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/backgroundImage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/backgroundOrigin.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/backgroundOrigin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/backgroundPosition.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/backgroundPosition.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/backgroundPositionX.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/backgroundPositionX.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/backgroundPositionY.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/backgroundPositionY.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/backgroundRepeat.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/backgroundRepeat.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/backgroundRepeatX.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/backgroundRepeatX.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/backgroundRepeatY.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/backgroundRepeatY.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/backgroundSize.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/backgroundSize.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/baselineShift.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/baselineShift.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/border.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/border.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderBottom.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderBottom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderBottomColor.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderBottomColor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderBottomLeftRadius.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderBottomLeftRadius.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderBottomRightRadius.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderBottomRightRadius.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderBottomStyle.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderBottomStyle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderBottomWidth.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderBottomWidth.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderCollapse.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderCollapse.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderColor.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderColor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/css3-properties/borderImage.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/css3-properties/borderImage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderImage.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderImage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/css3-properties/borderImageOutset.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/css3-properties/borderImageOutset.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderImageOutset.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderImageOutset.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/css3-properties/borderImageRepeat.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/css3-properties/borderImageRepeat.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderImageRepeat.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderImageRepeat.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/css3-properties/borderImageSlice.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/css3-properties/borderImageSlice.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderImageSlice.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderImageSlice.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/css3-properties/borderImageSource.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/css3-properties/borderImageSource.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderImageSource.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderImageSource.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/css3-properties/borderImageWidth.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/css3-properties/borderImageWidth.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderImageWidth.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderImageWidth.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderLeft.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderLeft.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderLeftColor.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderLeftColor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderLeftStyle.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderLeftStyle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderLeftWidth.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderLeftWidth.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderRadius.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderRadius.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderRight.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderRight.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderRightColor.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderRightColor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderRightStyle.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderRightStyle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderRightWidth.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderRightWidth.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderSpacing.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderSpacing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderStyle.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderStyle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderTop.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderTop.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderTopColor.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderTopColor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderTopLeftRadius.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderTopLeftRadius.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderTopRightRadius.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderTopRightRadius.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderTopStyle.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderTopStyle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderTopWidth.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderTopWidth.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderWidth.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/borderWidth.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/bottom.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/bottom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/boxShadow.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/boxShadow.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/boxSizing.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/boxSizing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/captionSide.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/captionSide.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/clear.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/clear.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/clip.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/clip.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/color.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/color.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/colorInterpolation.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/colorInterpolation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/colorInterpolationFilters.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/colorInterpolationFilters.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/colorProfile.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/colorProfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/colorRendering.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/colorRendering.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/app-controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hecosystem.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/ynosa.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/app2.js" afterPath="$PROJECT_DIR$/lib/app2.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.js" afterPath="$PROJECT_DIR$/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/content.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/content.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/counterIncrement.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/counterIncrement.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/counterReset.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/counterReset.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/cssFloat.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/cssFloat.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/cue.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/cue.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/cueAfter.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/cueAfter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/cueBefore.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/cueBefore.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/cursor.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/cursor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/direction.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/direction.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/display.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/display.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/dominantBaseline.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/dominantBaseline.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/elevation.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/elevation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/emptyCells.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/emptyCells.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/enableBackground.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/enableBackground.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/fill.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/fill.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/fillOpacity.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/fillOpacity.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/fillRule.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/fillRule.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/filter.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/filter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/floodColor.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/floodColor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/floodOpacity.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/floodOpacity.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/font.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/font.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/fontFamily.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/fontFamily.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/fontSize.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/fontSize.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/fontSizeAdjust.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/fontSizeAdjust.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/fontStretch.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/fontStretch.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/fontStyle.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/fontStyle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/fontVariant.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/fontVariant.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/fontWeight.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/fontWeight.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/glyphOrientationHorizontal.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/glyphOrientationHorizontal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/glyphOrientationVertical.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/glyphOrientationVertical.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/height.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/height.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/lib/htmlparser.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/lib/htmlparser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/lib/htmlparser.min.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/lib/htmlparser.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/imageRendering.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/imageRendering.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/dat-gui@0.5.0/vendor/dat.gui.src.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/dat-gui@0.5.0/vendor/dat.gui.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/data.js" afterPath="$PROJECT_DIR$/lib/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/gui.js" afterPath="$PROJECT_DIR$/lib/gui.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/json2.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/json2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/kerning.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/kerning.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/left.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/left.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/letterSpacing.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/letterSpacing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/lightingColor.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/lightingColor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/lineHeight.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/lineHeight.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/listStyle.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/listStyle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/listStyleImage.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/listStyleImage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/listStylePosition.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/listStylePosition.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/listStyleType.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/listStyleType.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/margin.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/margin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/marginBottom.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/marginBottom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/marginLeft.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/marginLeft.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/marginRight.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/marginRight.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/marginTop.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/marginTop.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/marker.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/marker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/markerEnd.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/markerEnd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/markerMid.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/markerMid.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/markerOffset.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/markerOffset.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/markerStart.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/markerStart.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/marks.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/marks.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/mask.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/mask.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/maxHeight.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/maxHeight.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/maxWidth.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/maxWidth.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/minHeight.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/minHeight.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/minWidth.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/minWidth.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/lib/node-htmlparser.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/lib/node-htmlparser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/lib/node-htmlparser.min.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/lib/node-htmlparser.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/opacity.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/opacity.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/orphans.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/orphans.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/outline.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/outline.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/outlineColor.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/outlineColor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/outlineOffset.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/outlineOffset.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/outlineStyle.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/outlineStyle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/outlineWidth.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/outlineWidth.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/overflow.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/overflow.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/overflowX.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/overflowX.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/overflowY.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/overflowY.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/package.json" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/package.json" afterPath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/padding.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/padding.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/paddingBottom.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/paddingBottom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/paddingLeft.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/paddingLeft.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/paddingRight.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/paddingRight.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/paddingTop.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/paddingTop.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/page.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/page.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/pageBreakAfter.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/pageBreakAfter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/pageBreakBefore.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/pageBreakBefore.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/pageBreakInside.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/pageBreakInside.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/parsers.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/parsers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/pause.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/pause.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/pauseAfter.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/pauseAfter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/pauseBefore.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/pauseBefore.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/pitch.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/pitch.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/pitchRange.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/pitchRange.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/playDuring.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/playDuring.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/pointerEvents.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/pointerEvents.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/position.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/position.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/quotes.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/quotes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/resize.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/resize.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/richness.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/richness.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/right.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/right.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/runtests.html" afterPath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/runtests.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/runtests.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/runtests.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/runtests.min.html" afterPath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/runtests.min.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/runtests.min.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/runtests.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/shapeRendering.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/shapeRendering.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/size.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/size.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/speak.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/speak.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/speakHeader.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/speakHeader.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/speakNumeral.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/speakNumeral.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/speakPunctuation.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/speakPunctuation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/speechRate.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/speechRate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/src.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/stopColor.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/stopColor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/stopOpacity.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/stopOpacity.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/stress.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/stress.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/stroke.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/stroke.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/strokeDasharray.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/strokeDasharray.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/strokeDashoffset.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/strokeDashoffset.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/strokeLinecap.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/strokeLinecap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/strokeLinejoin.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/strokeLinejoin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/strokeMiterlimit.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/strokeMiterlimit.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/strokeOpacity.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/strokeOpacity.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/strokeWidth.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/strokeWidth.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/tableLayout.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/tableLayout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/tests/tests.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/tests/tests.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/textAlign.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/textAlign.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/textAnchor.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/textAnchor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/textDecoration.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/textDecoration.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/textIndent.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/textIndent.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/textLineThrough.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/textLineThrough.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/textLineThroughColor.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/textLineThroughColor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/textLineThroughMode.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/textLineThroughMode.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/textLineThroughStyle.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/textLineThroughStyle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/textLineThroughWidth.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/textLineThroughWidth.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/textOverflow.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/textOverflow.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/textOverline.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/textOverline.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/textOverlineColor.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/textOverlineColor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/textOverlineMode.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/textOverlineMode.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/textOverlineStyle.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/textOverlineStyle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/textOverlineWidth.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/textOverlineWidth.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/textRendering.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/textRendering.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/textShadow.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/textShadow.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/textTransform.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/textTransform.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/textUnderline.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/textUnderline.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/textUnderlineColor.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/textUnderlineColor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/textUnderlineMode.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/textUnderlineMode.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/textUnderlineStyle.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/textUnderlineStyle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/textUnderlineWidth.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/textUnderlineWidth.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/top.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/top.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/unicodeBidi.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/unicodeBidi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/unicodeRange.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/unicodeRange.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/utils_example.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/htmlparser@1.7.7/utils_example.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/vectorEffect.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/vectorEffect.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/verticalAlign.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/verticalAlign.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/visibility.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/visibility.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/voiceFamily.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/voiceFamily.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/volume.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/volume.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitAnimation.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitAnimation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitAnimationDelay.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitAnimationDelay.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitAnimationDirection.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitAnimationDirection.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitAnimationDuration.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitAnimationDuration.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitAnimationFillMode.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitAnimationFillMode.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitAnimationIterationCount.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitAnimationIterationCount.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitAnimationName.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitAnimationName.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitAnimationPlayState.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitAnimationPlayState.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitAnimationTimingFunction.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitAnimationTimingFunction.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitAppearance.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitAppearance.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitAspectRatio.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitAspectRatio.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBackfaceVisibility.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBackfaceVisibility.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBackgroundClip.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBackgroundClip.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBackgroundComposite.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBackgroundComposite.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBackgroundOrigin.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBackgroundOrigin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBackgroundSize.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBackgroundSize.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBorderAfter.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBorderAfter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBorderAfterColor.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBorderAfterColor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBorderAfterStyle.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBorderAfterStyle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBorderAfterWidth.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBorderAfterWidth.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBorderBefore.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBorderBefore.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBorderBeforeColor.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBorderBeforeColor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBorderBeforeStyle.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBorderBeforeStyle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBorderBeforeWidth.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBorderBeforeWidth.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBorderEnd.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBorderEnd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBorderEndColor.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBorderEndColor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBorderEndStyle.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBorderEndStyle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBorderEndWidth.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBorderEndWidth.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBorderFit.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBorderFit.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBorderHorizontalSpacing.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBorderHorizontalSpacing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBorderImage.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBorderImage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBorderRadius.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBorderRadius.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBorderStart.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBorderStart.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBorderStartColor.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBorderStartColor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBorderStartStyle.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBorderStartStyle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBorderStartWidth.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBorderStartWidth.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBorderVerticalSpacing.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBorderVerticalSpacing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBoxAlign.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBoxAlign.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBoxDirection.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBoxDirection.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBoxFlex.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBoxFlex.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBoxFlexGroup.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBoxFlexGroup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBoxLines.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBoxLines.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBoxOrdinalGroup.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBoxOrdinalGroup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBoxOrient.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBoxOrient.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBoxPack.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBoxPack.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBoxReflect.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBoxReflect.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBoxShadow.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitBoxShadow.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitColorCorrection.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitColorCorrection.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitColumnAxis.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitColumnAxis.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitColumnBreakAfter.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitColumnBreakAfter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitColumnBreakBefore.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitColumnBreakBefore.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitColumnBreakInside.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitColumnBreakInside.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitColumnCount.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitColumnCount.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitColumnGap.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitColumnGap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitColumnRule.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitColumnRule.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitColumnRuleColor.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitColumnRuleColor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitColumnRuleStyle.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitColumnRuleStyle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitColumnRuleWidth.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitColumnRuleWidth.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitColumnSpan.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitColumnSpan.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitColumnWidth.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitColumnWidth.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitColumns.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitColumns.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitFilter.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitFilter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitFlexAlign.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitFlexAlign.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitFlexDirection.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitFlexDirection.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitFlexFlow.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitFlexFlow.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitFlexItemAlign.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitFlexItemAlign.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitFlexLinePack.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitFlexLinePack.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitFlexOrder.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitFlexOrder.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitFlexPack.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitFlexPack.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitFlexWrap.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitFlexWrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitFlowFrom.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitFlowFrom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitFlowInto.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitFlowInto.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitFontFeatureSettings.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitFontFeatureSettings.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitFontKerning.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitFontKerning.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitFontSizeDelta.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitFontSizeDelta.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitFontSmoothing.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitFontSmoothing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitFontVariantLigatures.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitFontVariantLigatures.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitHighlight.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitHighlight.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitHyphenateCharacter.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitHyphenateCharacter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitHyphenateLimitAfter.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitHyphenateLimitAfter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitHyphenateLimitBefore.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitHyphenateLimitBefore.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitHyphenateLimitLines.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitHyphenateLimitLines.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitHyphens.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitHyphens.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitLineAlign.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitLineAlign.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitLineBoxContain.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitLineBoxContain.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitLineBreak.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitLineBreak.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitLineClamp.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitLineClamp.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitLineGrid.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitLineGrid.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitLineSnap.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitLineSnap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitLocale.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitLocale.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitLogicalHeight.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitLogicalHeight.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitLogicalWidth.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitLogicalWidth.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMarginAfter.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMarginAfter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMarginAfterCollapse.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMarginAfterCollapse.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMarginBefore.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMarginBefore.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMarginBeforeCollapse.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMarginBeforeCollapse.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMarginBottomCollapse.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMarginBottomCollapse.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMarginCollapse.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMarginCollapse.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMarginEnd.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMarginEnd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMarginStart.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMarginStart.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMarginTopCollapse.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMarginTopCollapse.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMarquee.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMarquee.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMarqueeDirection.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMarqueeDirection.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMarqueeIncrement.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMarqueeIncrement.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMarqueeRepetition.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMarqueeRepetition.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMarqueeSpeed.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMarqueeSpeed.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMarqueeStyle.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMarqueeStyle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMask.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMask.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMaskAttachment.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMaskAttachment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMaskBoxImage.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMaskBoxImage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMaskBoxImageOutset.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMaskBoxImageOutset.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMaskBoxImageRepeat.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMaskBoxImageRepeat.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMaskBoxImageSlice.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMaskBoxImageSlice.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMaskBoxImageSource.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMaskBoxImageSource.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMaskBoxImageWidth.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMaskBoxImageWidth.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMaskClip.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMaskClip.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMaskComposite.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMaskComposite.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMaskImage.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMaskImage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMaskOrigin.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMaskOrigin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMaskPosition.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMaskPosition.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMaskPositionX.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMaskPositionX.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMaskPositionY.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMaskPositionY.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMaskRepeat.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMaskRepeat.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMaskRepeatX.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMaskRepeatX.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMaskRepeatY.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMaskRepeatY.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMaskSize.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMaskSize.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMatchNearestMailBlockquoteColor.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMatchNearestMailBlockquoteColor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMaxLogicalHeight.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMaxLogicalHeight.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMaxLogicalWidth.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMaxLogicalWidth.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMinLogicalHeight.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMinLogicalHeight.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMinLogicalWidth.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitMinLogicalWidth.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitNbspMode.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitNbspMode.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitOverflowScrolling.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitOverflowScrolling.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitPaddingAfter.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitPaddingAfter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitPaddingBefore.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitPaddingBefore.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitPaddingEnd.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitPaddingEnd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitPaddingStart.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitPaddingStart.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitPerspective.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitPerspective.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitPerspectiveOrigin.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitPerspectiveOrigin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitPerspectiveOriginX.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitPerspectiveOriginX.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitPerspectiveOriginY.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitPerspectiveOriginY.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitPrintColorAdjust.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitPrintColorAdjust.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitRegionBreakAfter.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitRegionBreakAfter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitRegionBreakBefore.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitRegionBreakBefore.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitRegionBreakInside.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitRegionBreakInside.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitRegionOverflow.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitRegionOverflow.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitRtlOrdering.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitRtlOrdering.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitSvgShadow.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitSvgShadow.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitTapHighlightColor.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitTapHighlightColor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitTextCombine.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitTextCombine.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitTextDecorationsInEffect.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitTextDecorationsInEffect.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitTextEmphasis.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitTextEmphasis.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitTextEmphasisColor.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitTextEmphasisColor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitTextEmphasisPosition.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitTextEmphasisPosition.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitTextEmphasisStyle.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitTextEmphasisStyle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitTextFillColor.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitTextFillColor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitTextOrientation.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitTextOrientation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitTextSecurity.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitTextSecurity.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitTextSizeAdjust.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitTextSizeAdjust.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitTextStroke.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitTextStroke.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitTextStrokeColor.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitTextStrokeColor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitTextStrokeWidth.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitTextStrokeWidth.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitTransform.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitTransform.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitTransformOrigin.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitTransformOrigin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitTransformOriginX.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitTransformOriginX.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitTransformOriginY.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitTransformOriginY.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitTransformOriginZ.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitTransformOriginZ.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitTransformStyle.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitTransformStyle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitTransition.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitTransition.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitTransitionDelay.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitTransitionDelay.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitTransitionDuration.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitTransitionDuration.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitTransitionProperty.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitTransitionProperty.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitTransitionTimingFunction.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitTransitionTimingFunction.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitUserDrag.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitUserDrag.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitUserModify.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitUserModify.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitUserSelect.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitUserSelect.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitWrap.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitWrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitWrapFlow.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitWrapFlow.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitWrapMargin.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitWrapMargin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitWrapPadding.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitWrapPadding.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitWrapShapeInside.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitWrapShapeInside.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitWrapShapeOutside.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitWrapShapeOutside.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitWrapThrough.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitWrapThrough.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitWritingMode.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/webkitWritingMode.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/whiteSpace.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/whiteSpace.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/widows.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/widows.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/width.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/width.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/wordBreak.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/wordBreak.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/wordSpacing.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/wordSpacing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/wordWrap.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/wordWrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/svg-stylesheet.css" afterPath="$PROJECT_DIR$/css/svg-stylesheet.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/writingMode.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/writingMode.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/zIndex.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/zIndex.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/zoom.js" afterPath="$PROJECT_DIR$/jspm_packages/npm/cssstyle@0.2.11/lib/properties/zoom.js" />
     </list>
     <ignored path="HEcosystem.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -478,37 +36,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="34" selection-start="575" selection-end="575" vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="561">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="12" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gui.coffee" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/gui.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="102">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="svg-stylesheet.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/svg-stylesheet.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1054">
+            <state line="14" column="11" selection-start="467" selection-end="467" vertical-scroll-proportion="0.3322034" vertical-offset="140" max-vertical-offset="680">
               <folding />
             </state>
           </provider>
@@ -517,45 +48,33 @@
       <file leaf-file-name="app2.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/app2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="16" selection-start="2605" selection-end="2605" vertical-scroll-proportion="0.0" vertical-offset="1345" max-vertical-offset="2958">
-              <folding>
-                <marker date="1397658464291" expanded="true" signature="58:4812" placeholder="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="111.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/111.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="25" selection-start="704" selection-end="704" vertical-scroll-proportion="0.0" vertical-offset="1061" max-vertical-offset="4199">
+            <state line="170" column="17" selection-start="4786" selection-end="4786" vertical-scroll-proportion="0.0" vertical-offset="2890" max-vertical-offset="3485">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="d3.src.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jspm_packages/npm/d3@3.4.5/d3.src.js">
+      <file leaf-file-name="svg-stylesheet.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/svg-stylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6197" column="6" selection-start="215482" selection-end="215482" vertical-scroll-proportion="0.0" vertical-offset="103324" max-vertical-offset="154581">
-              <folding>
-                <element signature="e#212450#213090#0" expanded="false" />
-                <element signature="e#213119#214615#0" expanded="false" />
-                <element signature="e#214647#214734#0" expanded="false" />
-                <element signature="e#214766#214853#0" expanded="false" />
-                <element signature="e#214884#214969#0" expanded="false" />
-                <element signature="e#215008#215140#0" expanded="false" />
-                <element signature="e#215220#215352#0" expanded="false" />
-                <element signature="e#215387#215481#0" expanded="false" />
-                <element signature="e#215514#215634#0" expanded="false" />
-                <element signature="e#215675#215797#0" expanded="false" />
-                <element signature="e#215831#215923#0" expanded="false" />
-                <element signature="e#215955#216059#0" expanded="false" />
-                <element signature="e#216091#216390#0" expanded="false" />
-                <element signature="e#216421#218290#0" expanded="false" />
-                <element signature="e#218322#218359#0" expanded="false" />
-                <element signature="e#218389#218425#0" expanded="false" />
-              </folding>
+            <state line="1" column="23" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1054">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="system@0.5.5.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="https://jspm.io/system@0.5.5.js">
+          <provider selected="true" editor-type-id="httpFileEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gui.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/gui.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="6" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0" vertical-offset="369" max-vertical-offset="1071">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -563,16 +82,34 @@
       <file leaf-file-name="data.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/data.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="14" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1139">
+            <state line="34" column="22" selection-start="954" selection-end="954" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="4641">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gui.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/gui.js">
+      <file leaf-file-name="hecosystem.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/hecosystem.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="532" selection-end="532" vertical-scroll-proportion="0.5279503" vertical-offset="0" max-vertical-offset="731">
+            <state line="7" column="9" selection-start="0" selection-end="4463" vertical-scroll-proportion="-2.1538463" vertical-offset="63" max-vertical-offset="3366">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gui.coffee" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/gui.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app-controller.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/app-controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="0" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="527">
               <folding />
             </state>
           </provider>
@@ -602,20 +139,22 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/lib/gui.js.coffee" />
         <option value="$PROJECT_DIR$/lib/gui.coffee" />
-        <option value="$PROJECT_DIR$/lib/gui.js" />
         <option value="$PROJECT_DIR$/lib/111.js" />
-        <option value="$PROJECT_DIR$/lib/data.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/lib/app2.js" />
+        <option value="$PROJECT_DIR$/jspm_packages/npm/jquery@2.1.0/dist/jquery.src.js" />
+        <option value="$PROJECT_DIR$/hecosystem.json" />
         <option value="$PROJECT_DIR$/css/svg-stylesheet.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/lib/app-controller.js" />
+        <option value="$PROJECT_DIR$/lib/data.js" />
+        <option value="$PROJECT_DIR$/lib/app2.js" />
+        <option value="$PROJECT_DIR$/lib/gui.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1050" />
+    <option name="x" value="1" />
+    <option name="width" value="1362" />
+    <option name="height" value="714" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -659,6 +198,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -687,7 +227,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -701,13 +241,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -733,7 +272,8 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="options.lastSelected" value="Settings.JavaScript.Linters.JSLint" />
+    <property name="options.lastSelected" value="reference.idesettings.debugger.javascript" />
+    <property name="JavaScriptLanguageLevel" value="JS_1_8_5" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="options.searchVisible" value="true" />
@@ -748,11 +288,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
-    <configuration default="false" name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://localhost:63342/HEcosystem/index.html">
-      <RunnerSettings RunnerId="JavascriptDebugRunner" />
-      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -775,6 +310,27 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeunitConfigurationType" factoryName="Nodeunit">
+      <setting name="nodePath" value="D:/Program Files/nodejs/node" />
+      <envs />
+      <setting name="passParentEnvVars" value="true" />
+      <setting name="nodeunitModuleDir" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="testType" value="JS_FILE" />
+      <setting name="jsFile" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSRemoteDebug" factoryName="Node.js Remote Debug">
+      <node-js-remote-debug />
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
@@ -782,20 +338,30 @@
       <browser start="false" url="" with-js-debugger="false" />
       <method />
     </configuration>
-    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" uri="http://localhost:63343/HEcosystem/index.html">
+    <configuration default="true" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
+      <method />
+    </configuration>
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" uri="http://localhost:63345/HEcosystem/index.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="1">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
     </list>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
@@ -824,23 +390,24 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <frame x="1" y="0" width="1362" height="714" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5008375" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17239584" sideWeight="0.7392739" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26072606" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26072606" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16808964" sideWeight="0.45259595" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24867725" sideWeight="0.6583184" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26749435" sideWeight="0.6680896" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24884437" sideWeight="0.2581818" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34168157" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="91" y="91" width="1738" height="850" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21232124" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34181818" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -856,33 +423,38 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/lib/data.js</url>
+          <line>9</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/lib/app-controller.js</url>
+          <line>11</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="12" />
+      <option name="time" value="24" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/bower/node_modules/shell-quote/node_modules/jsonify/lib/stringify.js">
+    <entry file="file://$PROJECT_DIR$/hecosystem.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="8" selection-start="492" selection-end="492" vertical-scroll-proportion="0.32122093" vertical-offset="0" max-vertical-offset="2720" />
+        <state line="87" column="26" selection-start="1980" selection-end="1980" vertical-scroll-proportion="2.234139" vertical-offset="0" max-vertical-offset="3366" />
       </provider>
     </entry>
-    <entry file="https://jspm.io/system@0.5.5.js">
-      <provider selected="true" editor-type-id="httpFileEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="https://jspm.io/es6-module-loader@0.5.4.js">
-      <provider selected="true" editor-type-id="httpFileEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.js">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="31" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1326">
-          <folding />
-        </state>
+        <state line="100" column="17" selection-start="1547" selection-end="1547" vertical-scroll-proportion="0.33284885" vertical-offset="1471" max-vertical-offset="15623" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jspm_packages/npm/underscore@1.6.0/underscore.src.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="513" column="8" selection-start="18263" selection-end="18263" vertical-scroll-proportion="0.35755813" vertical-offset="8424" max-vertical-offset="22882" />
       </provider>
     </entry>
     <entry file="http://localhost:63343/HEcosystem/index.html">
@@ -890,102 +462,97 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/111.js">
+    <entry file="http://localhost:63342/HEcosystem/lib/app2.js.map">
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="http://localhost:63342/HEcosystem/lib/gui.js.map">
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="http://localhost:63342/HEcosystem/config.js.map">
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="https://jspm.io/system@0.5.5.js">
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/svg-stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="25" selection-start="704" selection-end="704" vertical-scroll-proportion="0.0" vertical-offset="1061" max-vertical-offset="4199">
+        <state line="1" column="23" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/gui.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="644">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="621">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jspm_packages/npm/d3@3.4.4/d3.src.js">
+    <entry file="file://$PROJECT_DIR$/lib/app-controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4357" column="11" selection-start="153149" selection-end="153149" vertical-scroll-proportion="0.33280507" vertical-offset="73859" max-vertical-offset="158117">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jspm_packages/npm/d3@3.4.5/d3.src.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6197" column="6" selection-start="215482" selection-end="215482" vertical-scroll-proportion="0.0" vertical-offset="103324" max-vertical-offset="154581">
-          <folding>
-            <element signature="e#212450#213090#0" expanded="false" />
-            <element signature="e#213119#214615#0" expanded="false" />
-            <element signature="e#214647#214734#0" expanded="false" />
-            <element signature="e#214766#214853#0" expanded="false" />
-            <element signature="e#214884#214969#0" expanded="false" />
-            <element signature="e#215008#215140#0" expanded="false" />
-            <element signature="e#215220#215352#0" expanded="false" />
-            <element signature="e#215387#215481#0" expanded="false" />
-            <element signature="e#215514#215634#0" expanded="false" />
-            <element signature="e#215675#215797#0" expanded="false" />
-            <element signature="e#215831#215923#0" expanded="false" />
-            <element signature="e#215955#216059#0" expanded="false" />
-            <element signature="e#216091#216390#0" expanded="false" />
-            <element signature="e#216421#218290#0" expanded="false" />
-            <element signature="e#218322#218359#0" expanded="false" />
-            <element signature="e#218389#218425#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="12" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/svg-stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1054">
+        <state line="21" column="0" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/app2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="16" selection-start="2605" selection-end="2605" vertical-scroll-proportion="0.0" vertical-offset="1345" max-vertical-offset="2958">
-          <folding>
-            <marker date="1397658464291" expanded="true" signature="58:4812" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="34" selection-start="575" selection-end="575" vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="561">
+        <state line="170" column="17" selection-start="4786" selection-end="4786" vertical-scroll-proportion="0.0" vertical-offset="2713" max-vertical-offset="3485">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/data.js">
+    <entry file="file://$PROJECT_DIR$/lib/hecosystem.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="14" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1139">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jspm_packages/npm/dat-gui@0.5.0/vendor/dat.gui.src.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2816" column="19" selection-start="70542" selection-end="70542" vertical-scroll-proportion="0.4675119" vertical-offset="47390" max-vertical-offset="62118">
+        <state line="7" column="9" selection-start="0" selection-end="4463" vertical-scroll-proportion="-2.1538463" vertical-offset="63" max-vertical-offset="3366">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/gui.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="532" selection-end="532" vertical-scroll-proportion="0.5279503" vertical-offset="0" max-vertical-offset="731">
+        <state line="26" column="6" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0" vertical-offset="369" max-vertical-offset="1071">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="22" selection-start="954" selection-end="954" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="4641">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="11" selection-start="467" selection-end="467" vertical-scroll-proportion="0.3322034" vertical-offset="140" max-vertical-offset="680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 

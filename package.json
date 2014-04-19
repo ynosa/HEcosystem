@@ -9,6 +9,9 @@
   "dependencies": {
     "npm:d3": "^3.4.5",
     "underscore": "^1.6.0",
-    "npm:dat-gui": "^0.5.0"
+    "npm:dat-gui": "^0.5.0",
+    "npm:galaxy": "^0.1.4",
+    "jquery": "^2.1.0",
+    "npm:rxjs": "^1.0.10621"
   }
 }

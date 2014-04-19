@@ -7,6 +7,9 @@ System.map = {
   'npm:d3': 'npm:d3@^3.4.5',
   'underscore': 'npm:underscore@^1.6.0',
   'npm:dat-gui': 'npm:dat-gui@^0.5.0',
+  'npm:galaxy': 'npm:galaxy@^0.1.4',
+  'jquery': 'npm:jquery@^2.1.0',
+  'npm:rxjs': 'npm:rxjs@^1.0.10621',
   'npm:d3@3.4.5': {
     'jsdom': 'npm:jsdom@0.5.7'
   },
@@ -67,6 +70,9 @@ System.versions = {
   'npm:Base64': '0.2.1',
   'github:systemjs/plugin-json': 'master',
   'npm:underscore': '1.6.0',
-  'npm:dat-gui': '0.5.0'
+  'npm:dat-gui': '0.5.0',
+  'npm:galaxy': '0.1.4',
+  'npm:jquery': '2.1.0',
+  'npm:rxjs': '1.0.10621'
 };
 

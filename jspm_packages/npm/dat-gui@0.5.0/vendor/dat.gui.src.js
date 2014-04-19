@@ -1744,7 +1744,7 @@ dat.GUI = dat.gui.GUI = (function (css, saveDialogueContents, styleSheet, contro
 
           /**
            * The name of <code>GUI</code>. Used for folders. i.e
-           * a folder's name
+           * a nodeGroupFolder's name
            * @type String
            */
           name: {
@@ -2047,8 +2047,8 @@ dat.GUI = dat.gui.GUI = (function (css, saveDialogueContents, styleSheet, contro
 
         /**
          * @param name
-         * @returns {dat.gui.GUI} The new folder.
-         * @throws {Error} if this GUI already has a folder by the specified
+         * @returns {dat.gui.GUI} The new nodeGroupFolder.
+         * @throws {Error} if this GUI already has a nodeGroupFolder by the specified
          * name
          * @instance
          */
@@ -2064,11 +2064,11 @@ dat.GUI = dat.gui.GUI = (function (css, saveDialogueContents, styleSheet, contro
           var new_gui_params = { name: name, parent: this };
 
           // We need to pass down the autoPlace trait so that we can
-          // attach event listeners to open/close folder actions to
+          // attach event listeners to open/close nodeGroupFolder actions to
           // ensure that a scrollbar appears if the window is too short.
           new_gui_params.autoPlace = this.autoPlace;
 
-          // Do we have saved appearance data for this folder?
+          // Do we have saved appearance data for this nodeGroupFolder?
 
           if (this.load && // Anything loaded?
               this.load.folders && // Was my parent a dead-end?
