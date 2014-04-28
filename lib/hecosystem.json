@@ -70,19 +70,19 @@
             "name": "Accumulo",
             "group": "db-rw",
             "properties": {
-                              "vendor": "Apache",
-                              "technology": "db-rw"
-                          }           
+                "vendor": "Apache",
+                "technology": "db-rw"
+            }
         },
         {
             "id": "amr",
             "name": "MapReduce",
             "group": "parallel",
             "properties": {
-                              "vendor": "Apache",
-                              "technology": "parallel",
-                              "distribution": ["CDH","HDP"]
-                          }
+                "vendor": "Apache",
+                "technology": "parallel",
+                "distribution": ["CDH","HDP"]
+            }
         },
         {
             "id": "hama",
@@ -168,19 +168,19 @@
 
     "links": [
         {
-            "source": "parallel",
+            "source": "amr",
             "target": "hdfs",
             "type": "reads from/writes to",
             "svgClass": "rw"
         },
         {
-            "source": "parallel",
+            "source": "amr",
             "target": "hbase",
             "type": "reads from/writes to",
             "svgClass": "rw"
         },
         {
-            "source": "parallel",
+            "source": "amr",
             "target": "avro",
             "type": "serializes/deserializes",
             "svgClass": "rw"
@@ -199,7 +199,7 @@
         },
         {
             "source": "pig",
-            "target": "parallel",
+            "target": "amr",
             "type": "generates M/R jobs",
             "svgClass": "gmr"
         },
@@ -223,7 +223,7 @@
         },
         {
             "source": "hive",
-            "target": "parallel",
+            "target": "amr",
             "type": "generates M/R jobs",
             "svgClass": "gmr"
         },
