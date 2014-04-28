@@ -1,0 +1,2 @@
+define(["../../core","../../selector"],function(e){return function(t,n){return t=n||t,"none"===e.css(t,"display")||!e.contains(t.ownerDocument,t)}});
+//# sourceMappingURL=jspm_packages\npm\jquery@2.1.0/src\css\var\isHidden.js.map

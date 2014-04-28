@@ -12,6 +12,8 @@
     "npm:dat-gui": "^0.5.0",
     "npm:galaxy": "^0.1.4",
     "jquery": "^2.1.0",
-    "npm:rxjs": "^1.0.10621"
+    "npm:rxjs": "^1.0.10621",
+    "github:alexei/sprintf.js": "master",
+    "npm:galaxy-stack": "^0.1.1"
   }
 }

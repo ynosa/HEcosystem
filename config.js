@@ -10,6 +10,8 @@ System.map = {
   'npm:galaxy': 'npm:galaxy@^0.1.4',
   'jquery': 'npm:jquery@^2.1.0',
   'npm:rxjs': 'npm:rxjs@^1.0.10621',
+  'github:alexei/sprintf.js': 'github:alexei/sprintf.js@master',
+  'npm:galaxy-stack': 'npm:galaxy-stack@^0.1.1',
   'npm:d3@3.4.5': {
     'jsdom': 'npm:jsdom@0.5.7'
   },
@@ -73,6 +75,8 @@ System.versions = {
   'npm:dat-gui': '0.5.0',
   'npm:galaxy': '0.1.4',
   'npm:jquery': '2.1.0',
-  'npm:rxjs': '1.0.10621'
+  'npm:rxjs': '1.0.10621',
+  'github:alexei/sprintf.js': 'master',
+  'npm:galaxy-stack': '0.1.1'
 };
 

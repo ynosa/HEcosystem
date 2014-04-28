@@ -1,0 +1,1 @@
+{"version":3,"file":"basic.js","sources":["basic.src.js"],"names":["test","as","rx","AsyncSubject","setTimeout","onNext","onCompleted","require","a","subscribe","result","console","log"],"mappings":"AAEA,QAASA,QACP,GAAIC,GAAK,GAAIC,IAAGC,YAKhB,OAJAC,YAAW,WACTH,EAAGI,OAAO,UACVJ,EAAGK,eACF,KACIL,EART,GAAIC,IAAKK,QAAQ,MAWbC,EAAIR,OAAOS,UAAU,SAASC,GAChCC,QAAQC,IAAI,eAAeF"}

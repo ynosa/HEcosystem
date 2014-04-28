@@ -1,0 +1,1 @@
+{"version":3,"file":"getStyles.js","sources":["getStyles.src.js"],"names":["define","elem","ownerDocument","defaultView","getComputedStyle"],"mappings":"AAAAA,OAAO,WACN,MAAO,UAAUC,GAChB,MAAOA,GAAKC,cAAcC,YAAYC,iBAAkBH,EAAM"}

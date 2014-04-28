@@ -1,0 +1,50 @@
+<html><head><title>async / await in your browser</title>
+ <script src="https://traceur-compiler.googlecode.com/git/bin/traceur.js" 
+        type="text/javascript"></script>
+    <script src="https://traceur-compiler.googlecode.com/git/src/bootstrap.js"
+        type="text/javascript"></script>
+    <script>
+      traceur.options.experimental = true;
+    </script>
+	<script type="module">
+      class Greeter {
+        constructor(message) {
+          this.message = message;
+        }
+
+        greet() {
+          let element = document.querySelector('#message');
+          element.innerHTML = this.message;
+        }
+      };
+
+      let greeter = new Greeter('Hello, world!');
+      greeter.greet();
+    </script>
+<script src="jquery/jquery-2.0.2.min.js"></script>
+<script src="../lib/galaxy.js"></script>
+
+<script>
+var sleep = galaxy.star(function(millis, cb) {
+	setTimeout(cb, millis);
+});
+
+function* hello() {
+	$('#results').append("hello ...");
+	yield sleep(1000);
+	$('#results').append(" world!<br>");
+	return "bye";
+}
+
+$(function() {
+	galaxy.unstar(hello)(function(err, result) {
+		if (err) throw err;
+		$('#results').append(result);
+	});	
+});
+</script>
+</head>
+<body>
+	<div id="results">
+</body>
+</html>

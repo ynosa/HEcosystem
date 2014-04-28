@@ -1,0 +1,2 @@
+function test(){var e=new rx.AsyncSubject;return setTimeout(function(){e.onNext("works!"),e.onCompleted()},500),e}var rx=require(".."),a=test().subscribe(function(e){console.log("Got result: "+e)});
+//# sourceMappingURL=jspm_packages\npm\rxjs@1.0.10621/examples\basic.js.map

@@ -1,0 +1,1 @@
+{"version":3,"file":"addGetHookIf.js","sources":["addGetHookIf.src.js"],"names":["define","addGetHookIf","conditionFn","hookFn","get","this","apply","arguments"],"mappings":"AAAAA,OAAO,WAEP,QAASC,GAAcC,EAAaC,GAEnC,OACCC,IAAK,WACJ,MAAKF,gBAIGG,MAAKD,KAMLC,KAAKD,IAAMD,GAAQG,MAAOD,KAAME,aAK3C,MAAON"}

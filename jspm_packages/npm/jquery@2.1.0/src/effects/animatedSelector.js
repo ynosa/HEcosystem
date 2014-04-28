@@ -1,0 +1,2 @@
+define(["../core","../selector","../effects"],function(e){e.expr.filters.animated=function(t){return e.grep(e.timers,function(e){return t===e.elem}).length}});
+//# sourceMappingURL=jspm_packages\npm\jquery@2.1.0/src\effects\animatedSelector.js.map

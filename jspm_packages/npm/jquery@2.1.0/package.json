@@ -1,0 +1,86 @@
+{
+  "name": "jquery",
+  "title": "jQuery",
+  "description": "JavaScript library for DOM operations",
+  "version": "2.1.0",
+  "main": "dist/jquery.js",
+  "homepage": "http://jquery.com",
+  "author": {
+    "name": "jQuery Foundation and other contributors",
+    "url": "https://github.com/jquery/jquery/blob/2.1.0/AUTHORS.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jquery/jquery.git"
+  },
+  "keywords": [
+    "jquery",
+    "javascript",
+    "library"
+  ],
+  "bugs": {
+    "url": "http://bugs.jquery.com"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jquery/jquery/blob/2.1.0/MIT-LICENSE.txt"
+    }
+  ],
+  "dependencies": {
+    "nodelibs": "github:jspm/nodelibs@0.0.2"
+  },
+  "devDependencies": {
+    "archiver": "0.4.10",
+    "gzip-js": "0.3.2",
+    "testswarm": "1.1.0",
+    "load-grunt-tasks": "0.2.0",
+    "requirejs": "2.1.9",
+    "shelljs": "0.2.6",
+    "grunt": "0.4.2",
+    "grunt-cli": "0.1.11",
+    "grunt-contrib-jshint": "0.7.2",
+    "grunt-contrib-uglify": "0.2.7",
+    "grunt-contrib-watch": "0.5.3",
+    "grunt-bowercopy": "0.5.0",
+    "grunt-compare-size": "0.4.0",
+    "grunt-git-authors": "1.2.0",
+    "grunt-jscs-checker": "0.2.6",
+    "grunt-jsonlint": "1.0.4"
+  },
+  "scripts": {
+    "build": "npm install && grunt",
+    "start": "grunt watch",
+    "test": "grunt"
+  },
+  "registry": "jspm",
+  "map": {
+    "assert": "github:jspm/nodelibs@0.0.2/assert",
+    "buffer": "github:jspm/nodelibs@0.0.2/buffer",
+    "console": "github:jspm/nodelibs@0.0.2/console",
+    "constants": "github:jspm/nodelibs@0.0.2/constants",
+    "domain": "github:jspm/nodelibs@0.0.2/domain",
+    "events": "github:jspm/nodelibs@0.0.2/events",
+    "fs": "github:jspm/nodelibs@0.0.2/fs",
+    "http": "github:jspm/nodelibs@0.0.2/http",
+    "https": "github:jspm/nodelibs@0.0.2/https",
+    "os": "github:jspm/nodelibs@0.0.2/os",
+    "path": "github:jspm/nodelibs@0.0.2/path",
+    "punycode": "github:jspm/nodelibs@0.0.2/punycode",
+    "querystring": "github:jspm/nodelibs@0.0.2/querystring",
+    "string_decorder": "github:jspm/nodelibs@0.0.2/string_decorder",
+    "stream": "github:jspm/nodelibs@0.0.2/stream",
+    "timers": "github:jspm/nodelibs@0.0.2/timers",
+    "tls": "github:jspm/nodelibs@0.0.2/tls",
+    "tty": "github:jspm/nodelibs@0.0.2/tty",
+    "url": "github:jspm/nodelibs@0.0.2/url",
+    "util": "github:jspm/nodelibs@0.0.2/util",
+    "vm": "github:jspm/nodelibs@0.0.2/vm",
+    "zlib": "github:jspm/nodelibs@0.0.2/zlib",
+    "process": "@@nodeProcess"
+  },
+  "buildConfig": {
+    "minify": true
+  },
+  "useJSExtensions": true
+}

@@ -1,0 +1,2 @@
+define(["../core","../selector"],function(e){e.expr.filters.hidden=function(e){return e.offsetWidth<=0&&e.offsetHeight<=0},e.expr.filters.visible=function(t){return!e.expr.filters.hidden(t)}});
+//# sourceMappingURL=jspm_packages\npm\jquery@2.1.0/src\css\hiddenVisibleSelectors.js.map

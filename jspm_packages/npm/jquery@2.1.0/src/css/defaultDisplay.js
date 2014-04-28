@@ -1,0 +1,2 @@
+define(["../core","../manipulation"],function(e){function t(t,n){var r=e(n.createElement(t)).appendTo(n.body),i=window.getDefaultComputedStyle?window.getDefaultComputedStyle(r[0]).display:e.css(r[0],"display");return r.detach(),i}function n(n){var o=document,s=i[n];return s||(s=t(n,o),"none"!==s&&s||(r=(r||e("<iframe frameborder='0' width='0' height='0'/>")).appendTo(o.documentElement),o=r[0].contentDocument,o.write(),o.close(),s=t(n,o),r.detach()),i[n]=s),s}var r,i={};return n});
+//# sourceMappingURL=jspm_packages\npm\jquery@2.1.0/src\css\defaultDisplay.js.map

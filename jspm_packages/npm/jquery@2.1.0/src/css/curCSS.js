@@ -1,0 +1,2 @@
+define(["../core","./var/rnumnonpx","./var/rmargin","./var/getStyles","../selector"],function(e,t,n,r){function i(i,o,s){var a,u,c,l,f=i.style;return s=s||r(i),s&&(l=s.getPropertyValue(o)||s[o]),s&&(""!==l||e.contains(i.ownerDocument,i)||(l=e.style(i,o)),t.test(l)&&n.test(o)&&(a=f.width,u=f.minWidth,c=f.maxWidth,f.minWidth=f.maxWidth=f.width=l,l=s.width,f.width=a,f.minWidth=u,f.maxWidth=c)),void 0!==l?l+"":l}return i});
+//# sourceMappingURL=jspm_packages\npm\jquery@2.1.0/src\css\curCSS.js.map

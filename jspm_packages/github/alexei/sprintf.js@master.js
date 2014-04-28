@@ -1,0 +1,1 @@
+export * from "github:alexei/sprintf.js@master/src/sprintf";

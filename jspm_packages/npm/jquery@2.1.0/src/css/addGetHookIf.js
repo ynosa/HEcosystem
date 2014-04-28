@@ -1,0 +1,2 @@
+define(function(){function e(e,t){return{get:function(){return e()?void delete this.get:(this.get=t).apply(this,arguments)}}}return e});
+//# sourceMappingURL=jspm_packages\npm\jquery@2.1.0/src\css\addGetHookIf.js.map
