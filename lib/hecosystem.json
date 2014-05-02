@@ -59,8 +59,22 @@
             "id": "mining",
             "name": "Data mining",
             "svgClass": "mining"
+        },
+        {
+            "id": "rpc",
+            "name": "Remote procedure calls",
+            "svgClass": "rpc"
+        },
+        {
+            "id": "meta",
+            "name": "Metadata layer",
+            "svgClass": "meta"
+        },
+        {
+            "id": "storage",
+            "name": "Storage format",
+            "svgClass": "storage"
         }
-
     ],
 
 
@@ -69,16 +83,37 @@
             "id": "accumulo",
             "name": "Accumulo",
             "group": "db-rw",
-            "properties": {
+            "classification": {
                 "vendor": "Apache",
                 "technology": "db-rw"
+            }
+        },{
+            "id": "hcatalog",
+            "name": "hcatalog",
+            "classification": {
+                "vendor": "Yahoo",
+                "technology": "meta"
+            }
+        },{
+            "id": "metastore",
+            "name": "Hive Metastore",
+            "classification": {
+                "vendor": "Yahoo",
+                "technology": "meta"
+            }
+        },{
+            "id": "orc",
+            "name": "ORCFile",
+            "classification": {
+                "vendor": "Yahoo",
+                "technology": "storage"
             }
         },
         {
             "id": "amr",
             "name": "MapReduce",
             "group": "parallel",
-            "properties": {
+            "classification": {
                 "vendor": "Apache",
                 "technology": "parallel",
                 "distribution": ["CDH","HDP"]
@@ -88,21 +123,61 @@
             "id": "hama",
             "name": "Apache Hama",
             "group": "parallel",
-            "properties": {
+            "classification": {
                 "vendor": "Apache",
                 "technology": ["parallel", "framework-algorithm"]
             }
         },
         {
+            "id": "spark",
+            "name": "Spark",
+            "group": "parallel",
+            "classification": {
+                "vendor": "Databricks",
+                "technology": "parallel"
+            }
+        },
+        {
+            "id": "shark",
+            "name": "Shark",
+            "group": "db-sql",
+            "classification": {
+                "vendor": "Databricks",
+                "technology": "db-sql"
+            }
+        },
+        {
+            "id": "impala",
+            "name": "Impala",
+            "group": "db-sql",
+            "classification": {
+                "vendor": "Cloudera",
+                "technology": "db-sql"
+            }
+        },
+        {
+            "id": "drill",
+            "name": "Dri;;",
+            "group": "db-sql",
+            "classification": {
+                "vendor": "Apache",
+                "technology": "db-sql"
+            }
+        },
+        {
             "id": "disco",
-            "name": "Nokia Disco",
-            "group": "parallel"
+            "name": "Disco",
+            "group": "parallel",
+            "classification": {
+                "vendor": "Nokia",
+                "technology": "parallel"
+            }
         },
         {
             "id": "hbase",
             "name": "HBase",
             "group": "db-rw",
-            "properties": {
+            "classification": {
                 "vendor": "Apache",
                 "technology": ["db-rw"],
                 "distribution": ["CDH","HDP"]
@@ -121,7 +196,12 @@
         {
             "id": "hive",
             "name": "Hive",
-            "group": "db-sql"
+            "classification":
+            {
+                "vendor": "Apache",
+                "technology": ["db-sql"],
+                "distribution": ["CDH","HDP"]
+            }
         },
         {
             "id": "whirr",
@@ -156,7 +236,12 @@
         {
             "id": "avro",
             "name": "Avro",
-            "group": "serialization"
+            "group": ["serialization","rpc"]
+        },
+        {
+            "id": "thrift",
+            "name": "Thrift",
+            "group": "rpc"
         },
         {
             "id": "zookeeper",
@@ -232,6 +317,84 @@
             "target": "zookeeper",
             "type": "coordinates",
             "svgClass": "coord"
+        },
+        {
+            "source": "accumulo",
+            "target": "zookeeper",
+            "type": "coordinates",
+            "svgClass": "coord"
+        },
+        {
+            "source": "accumulo",
+            "target": "hdfs",
+            "type": "reads from/writes to",
+            "svgClass": "coord"
+        },
+        {
+            "source": "accumulo",
+            "target": "thrift",
+            "type": "serializes/deserializes",
+            "svgClass": "serialize"
+        },
+        {
+            "source": "spark",
+            "target": "hdfs",
+            "type": "reads from/writes to",
+            "svgClass": "serialize"
+        },
+        {
+            "source": "shark",
+            "target": "spark",
+            "type": "generates M/R jobs",
+            "svgClass": "gmr"
+        },
+        {
+            "source": "accumulo",
+            "target": "hdfs",
+            "type": "reads from/writes to",
+            "svgClass": "gmr"
+        },
+        {
+            "source": "accumulo",
+            "target": "zookeeper",
+            "type": "coordinates",
+            "svgClass": "gmr"
+        },
+        {
+            "source": "accumulo",
+            "target": "thrift",
+            "type": "RPC",
+            "svgClass": "gmr"
+        },
+        {
+            "source": "hcatalog",
+            "target": "metastore",
+            "type": "reads from/writes to",
+            "svgClass": "gmr"
+        },
+        {
+            "source": "hive",
+            "target": "metastore",
+            "type": "stores metainfo",
+            "svgClass": "gmr"
+        },
+        {
+            "source": "hive",
+            "target": "hcatalog",
+            "type": "stores metainfo",
+            "svgClass": "gmr"
+        },
+        {
+            "source": "pig",
+            "target": "hcatalog",
+            "type": "stores metainfo",
+            "svgClass": "gmr"
+        },
+        {
+            "source": "amr",
+            "target": "hcatalog",
+            "type": "stores metainfo",
+            "svgClass": "gmr"
         }
     ]
 }
