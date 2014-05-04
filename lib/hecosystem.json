@@ -74,12 +74,48 @@
             "id": "storage",
             "name": "Storage format",
             "svgClass": "storage"
+        },
+        {
+            "id": "streaming",
+            "name": "Streaming framework",
+            "svgClass": "storage"
+        },
+        {
+            "id": "resource",
+            "name": "Distributed resource management",
+            "svgClass": "storage"
         }
     ],
 
 
     "nodes": [
         {
+            "id": "samza",
+            "name": "Apache samza",
+            "group": "db-rw",
+            "classification": {
+                "vendor": "LinkedIn",
+                "technology": "streaming"
+            }
+        }, {
+            "id": "yarn",
+            "name": "Apache YARN",
+            "group": "resource",
+            "classification": {
+                "vendor": "Yahoo",
+                "technology": "resource",
+                "distribution": ["HDP","CDH"]
+            }
+        }, {
+            "id": "tez",
+            "name": "Apache Tez",
+            "group": "parallel",
+            "classification": {
+                "vendor": "Hortonworks",
+                "technology": "parallel",
+                "distribution": "HDP"
+            }
+        },{
             "id": "accumulo",
             "name": "Accumulo",
             "group": "db-rw",
@@ -157,7 +193,7 @@
         },
         {
             "id": "drill",
-            "name": "Dri;;",
+            "name": "Drill",
             "group": "db-sql",
             "classification": {
                 "vendor": "Apache",
@@ -199,7 +235,7 @@
             "classification":
             {
                 "vendor": "Apache",
-                "technology": ["db-sql"],
+                "technology": "db-sql",
                 "distribution": ["CDH","HDP"]
             }
         },
@@ -394,6 +430,24 @@
             "source": "amr",
             "target": "hcatalog",
             "type": "stores metainfo",
+            "svgClass": "gmr"
+        },
+        {
+            "source": "amr",
+            "target": "hcatalog",
+            "type": "stores metainfo",
+            "svgClass": "gmr"
+        },
+        {
+            "source": "samza",
+            "target": "yarn",
+            "type": "negotiate resource",
+            "svgClass": "gmr"
+        },
+        {
+            "source": "amr",
+            "target": "yarn",
+            "type": "negotiate resource",
             "svgClass": "gmr"
         }
     ]

@@ -797,7 +797,7 @@ Readable.prototype.wrap = function(stream) {
   });
 
   // proxy all the other methods.
-  // important when wrapping filters and duplexes.
+  // important when wrapping query and duplexes.
   for (var i in stream) {
     if (typeof stream[i] === 'function' &&
         typeof this[i] === 'undefined') {
