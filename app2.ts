@@ -1,4 +1,15 @@
-define(['npm:d3', 'github:alexei/sprintf.js'], function (d3, spr) {
+//import d3 = require('npm:d3');
+//import spr = require('github:alexei/sprintf.js');
+//import _ = require('npm:underscore') ;
+//
+//
+
+///<reference path="lib/d3.d.ts" />
+///<reference path="lib/require.d.ts" />
+//declare var define: any;
+define(['npm:d3', 'github:alexei/sprintf.js','npm:underscore'], function (d3, spr, _){
+
+
     console.log("entering module app2.js");
     var vis,
         svg,
@@ -10,21 +21,19 @@ define(['npm:d3', 'github:alexei/sprintf.js'], function (d3, spr) {
         linkText,
         w = 960,
         h = 700,
-        hullGroups,
         groupFill,
         hullPathGenerator;
 
 
-    hullPathGenerator = function (groupNode) {
-        var hullPoints = groupNode.children;
-//        if (hullPoints.length == 1)
-//        {
-//            hullPoints = _.union(hullPoints[0],hullPoints[0],hullPoints[0]);
-//        }
+    hullPathGenerator = (groupNode1)=>{
+        var hullPoints = groupNode1.children;
+        if (hullPoints.length == 1)
+        {
+            hullPoints = _.union(hullPoints[0],hullPoints[0],hullPoints[0]);
+        }
         if (hullPoints.length == 2) {
             hullPoints = _.union(hullPoints, {x: (hullPoints[0].x + hullPoints[1].x) / 2, y: (hullPoints[0].y + hullPoints[1].y) / 2});
         }
-        console.log(hullPoints);
         return "M" + d3.geom.hull(hullPoints.map(function (childNode) {
                 return [childNode.x, childNode.y];
             }))
@@ -106,6 +115,7 @@ define(['npm:d3', 'github:alexei/sprintf.js'], function (d3, spr) {
             .data(["arrow"])
             .enter().append("marker")
             .attr("id", function(d) { return d; })
+            .attr("class", "link")
             .attr("viewBox", "0 -5 10 10")
             .attr("refX", 15)
             .attr("refY", 0)
@@ -127,7 +137,7 @@ define(['npm:d3', 'github:alexei/sprintf.js'], function (d3, spr) {
         vis.append('svg:rect')
             .attr('width', w)
             .attr('height', h)
-            .attr('fill', 'rgba(1,1,1,0)');
+            .attr('fill', 'rgba(0,0,0,0)');
 
         force = d3.layout.force()
             .gravity(.05)
@@ -153,11 +163,11 @@ define(['npm:d3', 'github:alexei/sprintf.js'], function (d3, spr) {
 
 
     var updateNodes = function (data) {
-        hullGroups = _(data.grouping.nodes).chain().map(function (node, i) {
-            return _({}).extend(node, {id : "hull-"+node.id, colorGroup: i})
-        }).sortBy(function (node) {
-            return node.level
-        }).reverse().value();
+//        hullGroups = _(data.grouping.nodes).chain().map(function (node, i) {
+//            return _({}).extend(node, {id : "hull-"+node.id, colorGroup: i})
+//        }).sortBy(function (node) {
+//            return node.level
+//        }).reverse().value();
 
         //data.nodes = gravity.nodes;
 //        data.links = gravity.links;
@@ -169,11 +179,10 @@ define(['npm:d3', 'github:alexei/sprintf.js'], function (d3, spr) {
             .on("tick", tick);
 
         hull = vis.selectAll("path")
-            .data(hullGroups, function (obj) {return obj.id;})
+            .data(data.grouping.nodes, function (obj) {return obj.id;})
             .attr("d", hullPathGenerator)
             .enter()
             .append("path")
-            .attr("id",function(d){return d.id;})
             .style("fill", function (d) {
                 return groupFill(d.colorGroup);
             })
@@ -273,14 +282,15 @@ define(['npm:d3', 'github:alexei/sprintf.js'], function (d3, spr) {
 
         node.exit().remove();
         link.exit().remove();
-        hull.exit().remove();
+        //hull.exit().remove();
 
         force.start();
     };
 
     console.log("exiting module app2.js");
     return {
-        start: start,
-        updateNodes: updateNodes
-    };
+            start:start,
+            updateNodes:updateNodes
+           };
 });
+

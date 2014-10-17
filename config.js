@@ -1,5 +1,6 @@
-
+System.paths['Resources/*'] = 'resources/*.js';
 System.paths['HEcosystem/*'] = 'lib/*.js';
+System.paths['Typed/*'] = '*.js';
 System.paths['npm:*'] = 'jspm_packages/npm/*.js';
 System.paths['github:*'] = 'jspm_packages/github/*.js';
 

@@ -10,29 +10,46 @@
 
     <link rel="stylesheet" type="text/css" href="css/svg-stylesheet.css">
     <script>
-        System.import('HEcosystem/app2').then(function (app) {
+        System.import('Typed/app2').then(function (app) {
 //            app.start();
-        });
+        }).catch(function(e) {
+                    setTimeout(function() {
+                        throw e;
+                    });
+                });
 
-        //        System.import('./hecosystem.json!').then(function(json){
-        //            console.log("hecosystem.json loaded");
-        //        });
-
+//
         System.import('HEcosystem/gui').then(function (app) {
-        });
-
-        System.import('HEcosystem/hecosystem.json!json').then(function (json) {
-            console.log("added");
-        })
+        }).catch(function(e) {
+                    setTimeout(function() {
+                        throw e;
+                    });
+                });
+////
+//        System.import('HEcosystem/hecosystem.json!json').then(function (json) {
+//            console.log("added");
+//        }).catch(function(e) {
+//                    setTimeout(function() {
+//                        throw e;
+//                    });
+//                });
 
         System.import('HEcosystem/app-controller').then(function (app) {
-        });
+        }).catch(function(e) {
+                    setTimeout(function() {
+                        throw e;
+                    });
+                });
 
-        System.import('HEcosystem/data').then(function (app) {
-        });
-
-        //        System.import('HEcosystem/es-import').then(function(app) {
-        //        });
+//        System.import('HEcosystem/data').then(function (app) {
+//        }).catch(function(e) {
+//                    setTimeout(function() {
+//                        throw e;
+//                    });
+//                });
+//
+//        //        System.import('HEcosystem/es-import').then(function(app) {
+//        //        });
 
     </script>
 
