@@ -52,6 +52,10 @@
     stroke: rgb(200, 200, 0);
 }
 
+.hull{
+
+}
+
 .fs circle{
     stroke-width : 5px;
     stroke: rgb(185, 68, 49);
