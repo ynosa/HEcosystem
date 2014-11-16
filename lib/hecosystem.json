@@ -23,7 +23,7 @@
         {
             "node-id": "tez",
             "name": "Apache Tez",
-            "group": "parallel",
+
             "classification": {
                 "vendor": "Hortonworks",
                 "technology": "parallel",
@@ -33,7 +33,7 @@
         {
             "node-id": "accumulo",
             "name": "Accumulo",
-            "group": "db-rw",
+
             "classification": {
                 "vendor": "Apache",
                 "technology": "db-rw"
