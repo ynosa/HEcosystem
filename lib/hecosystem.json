@@ -9,7 +9,17 @@
             "classification": {
                 "vendor": "LinkedIn",
                 "technology": "streaming"
-            }
+            },
+            "links": [
+                {
+                    "node-id": "yarn",
+                    "link-id": "Id1"
+                },
+                {
+                    "node-id": "tez",
+                    "link-id": "Id2"
+                }
+            ]
         },
         {
             "node-id": "yarn",
@@ -37,7 +47,17 @@
             "classification": {
                 "vendor": "Apache",
                 "technology": "db-rw"
-            }
+            },
+            "links": [
+                {
+                    "node-id": "yarn",
+                    "link-id": "Id1"
+                },
+                {
+                    "node-id": "tez",
+                    "link-id": "Id2"
+                }
+            ]
         },
         {
             "node-id": "hcatalog",
@@ -49,169 +69,16 @@
         }
     ],
 
-
     "links": [
         {
-            "source": "amr",
-            "target": "hdfs",
-            "type": "reads from/writes to",
-            "svgClass": "rw"
+            "link-id": "Id1",
+            "name": "reads from/writes to",
+            "svg":{}
         },
         {
-            "source": "amr",
-            "target": "hbase",
-            "type": "reads from/writes to",
-            "svgClass": "rw"
-        },
-        {
-            "source": "amr",
-            "target": "avro",
-            "type": "serializes/deserializes",
-            "svgClass": "rw"
-        },
-        {
-            "source": "hbase",
-            "target": "hdfs",
-            "type": "reads from/writes to",
-            "svgClass": "stores"
-        },
-        {
-            "source": "hbase",
-            "target": "zookeeper",
-            "type": "coordinates",
-            "svgClass": "coord"
-        },
-        {
-            "source": "pig",
-            "target": "amr",
-            "type": "generates M/R jobs",
-            "svgClass": "gmr"
-        },
-        {
-            "source": "pig",
-            "target": "avro",
-            "type": "serializes/deserializes",
-            "svgClass": "serialize"
-        },
-        {
-            "source": "hive",
-            "target": "hdfs",
-            "type": "reads from/writes to",
-            "svgClass": "rw"
-        },
-        {
-            "source": "hive",
-            "target": "hbase",
-            "type": "reads from/writes to",
-            "svgClass": "rw"
-        },
-        {
-            "source": "hive",
-            "target": "amr",
-            "type": "generates M/R jobs",
-            "svgClass": "gmr"
-        },
-        {
-            "source": "hive",
-            "target": "zookeeper",
-            "type": "coordinates",
-            "svgClass": "coord"
-        },
-        {
-            "source": "accumulo",
-            "target": "zookeeper",
-            "type": "coordinates",
-            "svgClass": "coord"
-        },
-        {
-            "source": "accumulo",
-            "target": "hdfs",
-            "type": "reads from/writes to",
-            "svgClass": "coord"
-        },
-        {
-            "source": "accumulo",
-            "target": "thrift",
-            "type": "serializes/deserializes",
-            "svgClass": "serialize"
-        },
-        {
-            "source": "spark",
-            "target": "hdfs",
-            "type": "reads from/writes to",
-            "svgClass": "serialize"
-        },
-        {
-            "source": "shark",
-            "target": "spark",
-            "type": "generates M/R jobs",
-            "svgClass": "gmr"
-        },
-        {
-            "source": "accumulo",
-            "target": "hdfs",
-            "type": "reads from/writes to",
-            "svgClass": "gmr"
-        },
-        {
-            "source": "accumulo",
-            "target": "zookeeper",
-            "type": "coordinates",
-            "svgClass": "gmr"
-        },
-        {
-            "source": "accumulo",
-            "target": "thrift",
-            "type": "RPC",
-            "svgClass": "gmr"
-        },
-        {
-            "source": "hcatalog",
-            "target": "metastore",
-            "type": "reads from/writes to",
-            "svgClass": "gmr"
-        },
-        {
-            "source": "hive",
-            "target": "metastore",
-            "type": "stores metainfo",
-            "svgClass": "gmr"
-        },
-        {
-            "source": "hive",
-            "target": "hcatalog",
-            "type": "stores metainfo",
-            "svgClass": "gmr"
-        },
-        {
-            "source": "pig",
-            "target": "hcatalog",
-            "type": "stores metainfo",
-            "svgClass": "gmr"
-        },
-        {
-            "source": "amr",
-            "target": "hcatalog",
-            "type": "stores metainfo",
-            "svgClass": "gmr"
-        },
-        {
-            "source": "amr",
-            "target": "hcatalog",
-            "type": "stores metainfo",
-            "svgClass": "gmr"
-        },
-        {
-            "source": "samza",
-            "target": "yarn",
-            "type": "negotiate resource",
-            "svgClass": "gmr"
-        },
-        {
-            "source": "amr",
-            "target": "yarn",
-            "type": "negotiate resource",
-            "svgClass": "gmr"
+            "link-id": "Id2",
+            "name": "serializes/deserializes",
+            "svg":{}
         }
     ],
 
