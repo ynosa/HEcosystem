@@ -5,7 +5,7 @@
             "name": "Apache samza",
             "description": "123",
             "url": "url",
-            "img": "img-uri",
+            "img": "https://github.com/favicon.ico",
             "classification": {
                 "vendor": "LinkedIn",
                 "technology": "streaming"
