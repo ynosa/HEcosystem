@@ -3,7 +3,7 @@
         {
             "node-id": "samza",
             "name": "Apache samza",
-            "description": "",
+            "description": "123",
             "url": "url",
             "img": "img-uri",
             "classification": {

@@ -22,6 +22,9 @@
 
 .grouping-link {
     /*visibility: hidden;*/
+    stroke-opacity: 0.2;
+    stroke-width: 3;
+    stroke: rgb(10, 210, 10);
 }
 
 .link {
