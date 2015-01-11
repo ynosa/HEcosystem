@@ -26,7 +26,7 @@
             "name": "Apache YARN",
             "classification": {
                 "vendor": "Yahoo",
-                "technology": "resource",
+                "technology": ["db-rw","key-value"],
                 "distribution": ["HDP", "CDH"]
             }
         },
