@@ -38,8 +38,14 @@
 </head>
 <body>
 
-<div id="drawing-area">
-
+<div id="container">
+    <svg id="drawing-area">
+        <defs>
+            <marker id="end-arrow" viewBox="0 -5 10 10" refX="6" markerWidth="3" markerHeight="3" orient="auto">
+                <path d="M0,-5L10,0L0,5" fill="#000"></path>
+            </marker>
+        </defs>
+    </svg>
 </div>
 </body>
 </html>

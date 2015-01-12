@@ -31,6 +31,7 @@
     stroke-opacity: 0.2;
     stroke-width: 3;
     stroke: rgb(20, 20, 20);
+    marker-end: url(#end-arrow);
 }
 
 .link text {
